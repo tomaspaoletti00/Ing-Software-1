@@ -1,0 +1,313 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="M7ZMge4adZSRjddyYFI-">
+    <mxGraphModel dx="1035" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="154" y="40" width="520" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-4" value="Cargar&amp;nbsp;&lt;div&gt;Empleado&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-1">
+          <mxGeometry x="86" y="30" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="yQTvHqlWNZ8mjY3_2HUU-1" source="yQTvHqlWNZ8mjY3_2HUU-5" target="yQTvHqlWNZ8mjY3_2HUU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-5" value="Asociar&lt;div&gt;Obra Social&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-1">
+          <mxGeometry x="96" y="160" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="yQTvHqlWNZ8mjY3_2HUU-1" source="yQTvHqlWNZ8mjY3_2HUU-7" target="yQTvHqlWNZ8mjY3_2HUU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-7" value="Avisar&lt;div&gt;Regulacion&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-1">
+          <mxGeometry x="160" y="380" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-8" value="Verificar&lt;div&gt;Morosidad&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-1">
+          <mxGeometry x="326" y="240" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="yQTvHqlWNZ8mjY3_2HUU-2" target="yQTvHqlWNZ8mjY3_2HUU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="yQTvHqlWNZ8mjY3_2HUU-2" target="yQTvHqlWNZ8mjY3_2HUU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-2" value="Secretaria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="yQTvHqlWNZ8mjY3_2HUU-3" target="yQTvHqlWNZ8mjY3_2HUU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-3" value="Servidor&lt;div&gt;Externo&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="yQTvHqlWNZ8mjY3_2HUU-6" target="yQTvHqlWNZ8mjY3_2HUU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-6" value="Empleado" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="400" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-20" value="uses" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="435" y="198" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-21" value="uses" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="515" y="408" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-22" value="Nombre" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="620" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-23" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-22">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-24" value="Cargar Empleado" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="620" width="465" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-34" value="Especifa la manera en la que una secretaria realiza la carga de un nuevo empleado" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-24">
+          <mxGeometry y="30" width="465" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-25" value="Actores" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="680" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-26" value="Pre-condiciones" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-25">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-27" value="Secretaria" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="680" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-28" value="Curso Normal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="740" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-29" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="740" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-36" value="1. La secretaria selecciona&amp;nbsp;&lt;div&gt;la opcion Cargar Empleado&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-29">
+          <mxGeometry y="30" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-38" value="3. La secretaria ingresa los datos&lt;div&gt;solicitados por el sistema.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-29">
+          <mxGeometry y="70" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-30" value="Acciones del Sistema" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="481" y="740" width="236" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-37" value="2. El sistema solicita los siguientes datos:&amp;nbsp;&lt;div&gt;dni, apellido y nombre, edad y domicilio.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-30">
+          <mxGeometry y="30" width="236" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-39" value="4. El sistema verifica que el nuevo agente&amp;nbsp;&lt;div&gt;no&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;figure la base de sumariados&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-30">
+          <mxGeometry y="70" width="236" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-40" value="5. Se registran los datos en la base de&lt;div&gt;sumariados y se da de alta un&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;nuevo&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;empleado.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-30">
+          <mxGeometry y="110" width="236" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-31" value="Curso Alterno" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="930" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-32" value="Post-condición" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-31">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-33" value="Paso 4 ALT: El sistema verifica q el nuevo agente figura en la base de sumariados, Se cancela la carga. Fin de CU." style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="930" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-41" value="Se dio de alta un nuevo empleado en el sistema." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-33">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-35" value="---" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="477" y="708" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-43" value="Nombre" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="1020" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-44" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-43">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-45" value="Asociar Obra Social" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="1020" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-55" value="Especifica la manera en la que una secretaria asoacia una OS a un Empleado." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-45">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-46" value="Actores" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="1080" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-47" value="Pre-condiciones" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-46">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-48" value="Secretaria" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="1080" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-56" value="El usuario debe estar cargado en la base de sumariados" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-48">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-49" value="Curso Normal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="1140" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-50" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="1140" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-57" value="1. La secretaria selecciona la opcion&amp;nbsp;&lt;div&gt;Asociar&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Obra Social&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-50">
+          <mxGeometry y="30" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-59" value="3. La secretaria ingresa el dni&lt;div&gt;del empleado a asociar&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-50">
+          <mxGeometry y="70" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-51" value="Acciones del Sistema" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="481" y="1140" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-58" value="2. El sistema solicita DNI del empleado&lt;div&gt;a asociar.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-51">
+          <mxGeometry y="30" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-62" value="4. El sistema verifica que el empleado&lt;div&gt;exista en la base de sumariados&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-51">
+          <mxGeometry y="70" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-60" value="5. El sistema ejectua el CU&amp;nbsp;&lt;div&gt;Verificar Morosidad&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-51">
+          <mxGeometry y="110" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-61" value="6. El sistema asocia la obra social&lt;div&gt;al empleado e imprime un carnet.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-51">
+          <mxGeometry y="150" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-52" value="Curso Alterno" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=80;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="1330" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-53" value="Post-condición" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-52">
+          <mxGeometry y="80" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-54" value="Paso 4 ALT: No existe empleado asociado a ese numero de DNI. Se informa. Retoma paso 2.&lt;div&gt;Paso 5 ALT: Falla Verificar Morosidad. Se informa. Fin de CU.&lt;br&gt;&lt;div&gt;Paso 5 ALT: El empleado es moroso. Se imprime un codigo de Tramite con plazo de 30 dias. Fin de CU.&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=80;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="1330" width="460" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-63" value="Se asocio una obra social a un empleado" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-54">
+          <mxGeometry y="80" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-80" value="Nombre" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="1460" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-81" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-80">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-82" value="Avisar Regulacion" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="1460" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-92" value="Especifica la manera en la que un empleado avisa la regularizacion de su deuda" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-82">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-83" value="Actores" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="1520" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-84" value="Pre-condiciones" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-83">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-85" value="Empleado" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="1520" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-93" value="El empleado debe estar cargado en la base de sumariados y tiene un codigo." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-85">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-86" value="Curso Normal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="1580" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-87" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="1580" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-94" value="1. El empleado selecciona la opcion Avisar&amp;nbsp;&lt;div&gt;Regulacion&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-87">
+          <mxGeometry y="30" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-96" value="3. El empleado ingresa en la terminal su&lt;div&gt;codigo y DNI&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-87">
+          <mxGeometry y="70" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-88" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="481" y="1580" width="230" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-95" value="2. El sistema solicita el codigo de inico&lt;div&gt;de tramite y DNI&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-88">
+          <mxGeometry y="30" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-97" value="4. El sistema verifica que el empleado&lt;div&gt;figura en la base de sumariados y que&lt;/div&gt;&lt;div&gt;el codigo sea correspondiente al&amp;nbsp;&lt;/div&gt;&lt;div&gt;empleado.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-88">
+          <mxGeometry y="70" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-98" value="5. El sistema ejecuta el CU Verificar&amp;nbsp;&lt;div&gt;Morosidad&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-88">
+          <mxGeometry y="140" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-99" value="6. El sistema asigna la obra social al&amp;nbsp;&lt;div&gt;empleado&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;e imprime un carnet&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-88">
+          <mxGeometry y="180" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-89" value="Curso Alterno" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=70;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="1770" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-91" value="Paso ALT 4: El empleado no existe en la base de sumariados. Se informa. Fin de CU.&lt;div&gt;Paso ALT 4: El codigo de tramite no es correspondiente al empleado. Se informa. Retoma paso 2.&lt;/div&gt;&lt;div&gt;Paso ALT 5: Fallo en la verificacion de Morosidad. Se informa. FIN de CU&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Paso Alt 5: El agente es moroso. Se informa el Error. Fin CU.&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=70;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="1770" width="460" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-100" value="Se asocio una obra social a un empleado y se imprimio el carnet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-91">
+          <mxGeometry y="70" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-90" value="Post-condición" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="111" y="1830" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-101" value="Nombre" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="1890" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-102" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-101">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-103" value="Verificar Morosidad" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="1890" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-113" value="Especifica la manera en la que se verifica la morosidad de un empleado" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-103">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-104" value="Actores" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="1950" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-105" value="Pre-condiciones" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-104">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-106" value="Servidor Externo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="1950" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-114" value="Se debe haber ejecutado el caso de uso Asociar OS o Avisar Regularizacion" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-106">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-107" value="Curso Normal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="2010" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-108" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="2010" width="235" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-116" value="2. El servidor establece la conexion&lt;div&gt;con el sistema&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-108">
+          <mxGeometry y="30" width="235" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-117" value="3. El servidro solicta DNI del empleado&lt;div&gt;a verificar&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-108">
+          <mxGeometry y="70" width="235" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-119" value="5. El sistema recibe el DNI, verifica su&amp;nbsp;&lt;div&gt;existencia&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;y la&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;morosidad del empleado.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-108">
+          <mxGeometry y="110" width="235" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-123" value="6. El sistema envia el resultado al sistema." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-108">
+          <mxGeometry y="150" width="235" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-109" value="Acciones del Sistema" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="481" y="2010" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-115" value="1. El sistema solicita conexion con el&lt;div&gt;servidor externo&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-109">
+          <mxGeometry y="30" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-118" value="4. El sistema envia el DNI del empleado&lt;div&gt;al servidor externo&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-109">
+          <mxGeometry y="70" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-120" value="7. El sistema recibe el empleado&lt;div&gt;no es moroso&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-109">
+          <mxGeometry y="110" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-122" value="8. El sistema cierra la conexion con el&lt;div&gt;servidor externo&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-109">
+          <mxGeometry y="150" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-110" value="Curso Alterno" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=90;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="2200" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-111" value="Post-condición" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-110">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-112" value="Paso ALT 2: Falla la conexion con el servidor externo. Se informa. Fin CU&lt;div&gt;Paso ALT 5: El sistema no encuentra un empleado asosciado al DNI. Se infroma. Retoma Paso 3.&lt;br&gt;&lt;div&gt;Paso ALT 7: El sistema recibe que el empleado es moroso. Se infroma y cierra la conexion con el servidor externo. Fin de CU&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=90;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="2200" width="460" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yQTvHqlWNZ8mjY3_2HUU-124" value="Se verifco la morosidad del Empleado" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yQTvHqlWNZ8mjY3_2HUU-112">
+          <mxGeometry y="90" width="460" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,255 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="nfkHEnwVUr88E4uHJjaC">
+    <mxGraphModel dx="1035" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="40" width="540" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--8" value="Registrar&lt;div&gt;Usuario&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--1">
+          <mxGeometry x="66" y="10" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--9" value="Iniciar&amp;nbsp;&lt;div&gt;Sesion&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--1">
+          <mxGeometry x="56" y="100" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--10" value="Cerrar&lt;div&gt;Sesion&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--1">
+          <mxGeometry x="130" y="195" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--11" value="Subir&lt;div&gt;Foto&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--1">
+          <mxGeometry x="140" y="300" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="Q5q6s9S6-56EhP_5OZt--1" source="Q5q6s9S6-56EhP_5OZt--12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="335" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--12" value="Pagar&lt;div&gt;Foto&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--1">
+          <mxGeometry x="306" y="140" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--13" value="Registrar&lt;div&gt;Retiro&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--1">
+          <mxGeometry x="90" y="420" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--22" value="&amp;lt;extends&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--1">
+          <mxGeometry x="311" y="270" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Q5q6s9S6-56EhP_5OZt--2" target="Q5q6s9S6-56EhP_5OZt--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--2" value="Usuario&amp;nbsp;&lt;div&gt;No Registrado&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Q5q6s9S6-56EhP_5OZt--3" target="Q5q6s9S6-56EhP_5OZt--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Q5q6s9S6-56EhP_5OZt--3" target="Q5q6s9S6-56EhP_5OZt--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Q5q6s9S6-56EhP_5OZt--3" target="Q5q6s9S6-56EhP_5OZt--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Q5q6s9S6-56EhP_5OZt--3" target="Q5q6s9S6-56EhP_5OZt--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--3" value="Usuario&lt;div&gt;Registrado&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Q5q6s9S6-56EhP_5OZt--5" target="Q5q6s9S6-56EhP_5OZt--13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--5" value="Empleado" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="410" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--6" value="Sistema&lt;div&gt;del&lt;/div&gt;&lt;div&gt;Banco&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.938;entryY=0.376;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="Q5q6s9S6-56EhP_5OZt--6" target="Q5q6s9S6-56EhP_5OZt--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--27" value="Nombre" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="600" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--28" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--27">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--29" value="Registrar Usuario" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="600" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--40" value="Especifica la manera en la que un cliente se registra como usuario" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--29">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--30" value="Actores" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="660" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--39" value="Pre-condiciones" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--30">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--31" value="Pre-condiciones" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--30">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--32" value="Usuario No Registrado" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="660" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--41" value="-----------------" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--32">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--33" value="Curso Normal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="720" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--34" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="720" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--42" value="1. El cliente seleccion Registrar Usuario" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--34">
+          <mxGeometry y="30" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--44" value="2. El cliente ingresa los datos solicitados" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--34">
+          <mxGeometry y="60" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--35" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="720" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--43" value="2. El sistema solicita los siguientes&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;datos:&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;nombre, apellido, email,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;domicilio,&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;nombre de usuario y&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;contraseña&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--35">
+          <mxGeometry y="30" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--45" value="3. El sistema verifica que el mail sea unico" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--35">
+          <mxGeometry y="90" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--46" value="4. El sistema registra los datos y&lt;div&gt;crea un nuevo usuario&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--35">
+          <mxGeometry y="120" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--36" value="Curso Alterno" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="910" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--37" value="Post-condición" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--36">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--38" value="Paso ALT 3: El mail ingresado ya existe. Se notifica. Retoma paso 2." style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="910" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--47" value="Se registro un nuevo usuario en el sistema" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--38">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--48" value="Nombre" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1050" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--49" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--48">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--50" value="Subir Foto" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1050" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--60" value="Se especifica la manera en la que un usuario sube una Foto" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--50">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--51" value="Actores" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1110" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--52" value="Pre-condiciones" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--51">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--53" value="Usuario Registrado" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1110" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--61" value="Se ejecuto el paso Registrar Usuario o Iniciar Sesion" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--53">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--54" value="Curso Normal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1170" width="140" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--55" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1170" width="230" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--62" value="1. El usuario selecciona Subir Foto." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--55">
+          <mxGeometry y="30" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--64" value="3. El cliente sube una foto" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--55">
+          <mxGeometry y="60" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--68" value="6.El sistema selecciona que no quiere&lt;div&gt;seguir subiendo fotos.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--55">
+          <mxGeometry y="90" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--70" value="8. El cliente confirma la continuacion&lt;div&gt;con el pago.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--55">
+          <mxGeometry y="130" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--56" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1170" width="230" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--63" value="2. El sistema solicita que se cargue&lt;div&gt;una foto&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--56">
+          <mxGeometry y="30" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--66" value="4. El sistema almacena la foto, incrementa&lt;div&gt;la cantidad de fotos subidas y verifica&lt;/div&gt;&lt;div&gt;que sea menor a 50.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--56">
+          <mxGeometry y="70" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--67" value="5. El sistema pregunta al cliente si&lt;div&gt;quiere seguir agregando fotos.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--56">
+          <mxGeometry y="130" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--69" value="7. El sistema solicita confirmar para&lt;div&gt;continuar con el pago.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--56">
+          <mxGeometry y="170" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--71" value="9. El sistema ejecuta el CU Pagar Foto." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--56">
+          <mxGeometry y="210" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--72" value="10. El sistema sube las fotos cargadas&lt;div&gt;por el usuario y las imprime.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--56">
+          <mxGeometry y="240" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--57" value="Curso Alterno" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1450" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--58" value="Post-condición" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--57">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--59" value="Paso ALT 4: La cantidad de fotos subidas es mayor a 50. Se notifica. Salta al paso 7.&lt;div&gt;Paso ALT 6: El usuario selecciona Agregar Foto. Retoma paso 2.&lt;/div&gt;&lt;div&gt;Paso ALT 8: El usuario no confirma continuar con el pago. Se informa. Fin CU&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Paso ALt 9: Falla el pago. Se notifica. Retoma paso 7.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1450" width="460" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--73" value="Se subieron nuevas fotos para imprimir" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--59">
+          <mxGeometry y="60" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--74" value="Nombre" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1600" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--75" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--74">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--76" value="Pagar Foto" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1600" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--86" value="Especifica la manera en la que se abona el pago de cierta cantidad de fotos" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--76">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--77" value="Actores" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1660" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--78" value="Pre-condiciones" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--77">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--79" value="Usuario Registrado, Servidor de Tarjetas." style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1660" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--80" value="Curso Normal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1720" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--81" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1720" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--82" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1720" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--83" value="Curso Alterno" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1910" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--84" value="Post-condición" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5q6s9S6-56EhP_5OZt--83">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--85" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1910" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5q6s9S6-56EhP_5OZt--87" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505" y="1748" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

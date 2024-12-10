@@ -1,0 +1,294 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="ndwMtV3NPlP2zzmSmEWx">
+    <mxGraphModel dx="880" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-1" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
+          <mxGeometry x="190" y="65" width="470" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-4" value="Registrar&lt;div&gt;Usuario&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="8URO9X2MTvqyvh8CyRAx-1" vertex="1">
+          <mxGeometry x="30" y="10" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-5" value="Iniciar&lt;div&gt;Sesion&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="8URO9X2MTvqyvh8CyRAx-1" vertex="1">
+          <mxGeometry x="40" y="115" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-6" value="Cerrar&amp;nbsp;&lt;div&gt;Sesion&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap; background-color: initial;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Registrar%26lt%3Bdiv%26gt%3BCuenta%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22ellipse%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22240%22%20y%3D%22100%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="8URO9X2MTvqyvh8CyRAx-1" vertex="1">
+          <mxGeometry x="50" y="185" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-7" value="Inscribir a Carrera" style="ellipse;whiteSpace=wrap;html=1;" parent="8URO9X2MTvqyvh8CyRAx-1" vertex="1">
+          <mxGeometry x="50" y="295" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-9" value="Cargar&lt;div&gt;Carrera&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="8URO9X2MTvqyvh8CyRAx-1" vertex="1">
+          <mxGeometry x="35" y="415" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="8URO9X2MTvqyvh8CyRAx-1" source="8URO9X2MTvqyvh8CyRAx-12" target="8URO9X2MTvqyvh8CyRAx-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="285" />
+              <mxPoint x="240" y="285" />
+              <mxPoint x="240" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-12" value="Pagar con&lt;div&gt;Tarjeta&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="8URO9X2MTvqyvh8CyRAx-1" vertex="1">
+          <mxGeometry x="290" y="185" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="8URO9X2MTvqyvh8CyRAx-1" target="8URO9X2MTvqyvh8CyRAx-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-79.9655172413793" y="245" as="sourcePoint" />
+            <mxPoint x="60.03" y="335" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-80" y="255" />
+              <mxPoint x="34" y="255" />
+              <mxPoint x="34" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="8URO9X2MTvqyvh8CyRAx-1" target="8URO9X2MTvqyvh8CyRAx-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-79.9955172413793" y="235" as="sourcePoint" />
+            <mxPoint x="323.96999999999707" y="215" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-80" y="245" />
+              <mxPoint x="134" y="245" />
+              <mxPoint x="134" y="255" />
+              <mxPoint x="260" y="255" />
+              <mxPoint x="260" y="215" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-1" value="&amp;gt;extends&amp;lt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="8URO9X2MTvqyvh8CyRAx-1" vertex="1">
+          <mxGeometry x="240" y="295" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="8URO9X2MTvqyvh8CyRAx-2" target="8URO9X2MTvqyvh8CyRAx-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-2" value="Alumno&lt;div&gt;No registrado&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="8URO9X2MTvqyvh8CyRAx-3" target="8URO9X2MTvqyvh8CyRAx-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-3" value="Empleado&lt;div&gt;Administrativo&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="480" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="8URO9X2MTvqyvh8CyRAx-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="290" as="sourcePoint" />
+            <mxPoint x="269" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="8URO9X2MTvqyvh8CyRAx-10" target="8URO9X2MTvqyvh8CyRAx-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-10" value="Alumno&lt;div&gt;Registrado&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="61" y="240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;endArrow=none;endFill=0;" parent="1" source="8URO9X2MTvqyvh8CyRAx-11" target="8URO9X2MTvqyvh8CyRAx-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-11" value="Servidor&amp;nbsp;&lt;div&gt;Externo de&lt;/div&gt;&lt;div&gt;Tarjetas&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-27" value="Nombre" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="660" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-28" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="8URO9X2MTvqyvh8CyRAx-27" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-29" value="Cargar Carrera" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="660" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-2" value="Especifica la manera en la que el E.Admin. carga una Carrera en el sistema." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="8URO9X2MTvqyvh8CyRAx-29" vertex="1">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-30" value="Actores" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="720" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-31" value="Pre-condiciones" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="8URO9X2MTvqyvh8CyRAx-30" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-32" value="Empleado Administrativo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="720" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-33" value="Curso Normal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="780" width="140" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-34" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="780" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-4" value="1. El Empleado selecciona Cargar&amp;nbsp;&lt;div&gt;Carrera en el Sistema.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="8URO9X2MTvqyvh8CyRAx-34" vertex="1">
+          <mxGeometry y="30" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-6" value="3. El empleado ingresa los datos&lt;div&gt;solicitados por el Sistema.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="8URO9X2MTvqyvh8CyRAx-34" vertex="1">
+          <mxGeometry y="70" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-35" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="780" width="235" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-5" value="2. El sistema solicitada ingresas los&lt;div&gt;siguientes datos: Nombre Unico, duracion&amp;nbsp;&lt;/div&gt;&lt;div&gt;que no debe ser mayor a 5 años, costo,&amp;nbsp;&lt;/div&gt;&lt;div&gt;cantidad de cuotas maxima.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="8URO9X2MTvqyvh8CyRAx-35" vertex="1">
+          <mxGeometry y="30" width="235" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-7" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. El sistema verifica que el Nombre&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;no&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;exista&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;y&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;que la duracion no sea mayor&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;a 5 años.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="8URO9X2MTvqyvh8CyRAx-35" vertex="1">
+          <mxGeometry y="100" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-8" value="5. El sistema registra la carga de&lt;div&gt;la carrera.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="8URO9X2MTvqyvh8CyRAx-35" vertex="1">
+          <mxGeometry y="160" width="235" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-36" value="Curso Alterno" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="990" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-37" value="Post-condición" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="8URO9X2MTvqyvh8CyRAx-36" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8URO9X2MTvqyvh8CyRAx-38" value="Paso Alt 4: El nombre ya existe. Se notifica. Retoma desde el paso 2.&lt;div&gt;Paso Alt4: La duracion es mayor a 5 años. Se notifica. Retoma paso 2.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="240" y="990" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-10" value="Se registro una nueva carrera en el sistema" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="8URO9X2MTvqyvh8CyRAx-38" vertex="1">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-3" value="-------------" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="380" y="748" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-11" value="Nombre" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1210" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-12" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-11" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-13" value="Inscribir a Carrera" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="1210" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-23" value="Especifica la manera en la que un Alumno Registrado se Inscribe a una Carrera" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-13" vertex="1">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-14" value="Actores" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1270" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-15" value="Pre-condiciones" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-14" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-16" value="Alumno Registrado" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="1270" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-24" value="El alumno debe tener una sesion iniciada" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-16" vertex="1">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-17" value="Curso Normal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1330" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-18" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="1330" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-25" value="1. El alumno selecciona Inscribir a Carrera&lt;div&gt;en el sistema.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-18" vertex="1">
+          <mxGeometry y="30" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-27" value="3. El alumno selecciona una de&amp;nbsp;&lt;div&gt;las Carreras disponibles.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-18" vertex="1">
+          <mxGeometry y="70" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-19" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="1330" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-26" value="2. El sistema desplega una lista con&lt;div&gt;Carreras cargadas y solicita al alumno&lt;/div&gt;&lt;div&gt;seleccionar.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-19" vertex="1">
+          <mxGeometry y="30" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-28" value="4. El sistema ejecuta el Caso de Uso&lt;div&gt;Pagar con Tarjeta&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-19" vertex="1">
+          <mxGeometry y="90" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-29" value="5. El sistema registra al alumno en&lt;div&gt;la carrera e imprime un comprobante de&lt;div&gt;pago y uno de inscripcion.&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-19" vertex="1">
+          <mxGeometry y="130" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-20" value="Curso Alterno" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1520" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-21" value="Post-condición" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-20" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-22" value="Paso 4 alternativo: El Pago no se realiza. Se notifica al Alumno. Fin CU." style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="1520" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-30" value="Se realizo la inscripcion del Alumno a una carrera" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-22" vertex="1">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-31" value="Nombre" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1640" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-32" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-31" vertex="1">
+          <mxGeometry y="20" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-33" value="Pagar con Tarjeta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="1640" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-43" value="Especifica la manera en la q se realiza un Pago con Tarjeta para la inscripcion de&amp;nbsp;&lt;div&gt;una carrera.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-33" vertex="1">
+          <mxGeometry y="20" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-34" value="Actores" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1700" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-35" value="Pre-condiciones" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-34" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-36" value="Alumno Registrado, Servidor Externo de Tarjetas" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="1700" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-44" value="Se debe haber ejecutado el CU Inscribir a Carrera" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-36" vertex="1">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-37" value="Curso Normal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1760" width="140" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-38" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="1760" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-46" value="2. El alumno ingresa los datos solicitados&amp;nbsp;&lt;div&gt;por&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;el sistema.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-38" vertex="1">
+          <mxGeometry y="30" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-48" value="4. El servidor establece conexion con&lt;div&gt;el sistema y le solicita los datos&lt;/div&gt;&lt;div&gt;de la tarjeta&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-38" vertex="1">
+          <mxGeometry y="70" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-50" value="6. El Servidor valida los datos de la&lt;div&gt;tarjeta y verifica si los fondos son&lt;/div&gt;&lt;div&gt;suficientes.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-38" vertex="1">
+          <mxGeometry y="130" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-51" value="7. El Servidor retorna el resultado&lt;div&gt;al sistema.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-38" vertex="1">
+          <mxGeometry y="190" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-39" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="1760" width="230" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-45" value="1. El Sistema solicita numero de tarjeta&lt;div&gt;y codigo de seguridad&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-39" vertex="1">
+          <mxGeometry y="30" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-47" value="3. El sistema estable conexion con el&lt;div&gt;servidor externo de tarjetas&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-39" vertex="1">
+          <mxGeometry y="70" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-49" value="5. El sistema le envia los datos de la&lt;div&gt;tarjeta al servido externo&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-39" vertex="1">
+          <mxGeometry y="110" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-52" value="8. El sistema recibe que los datos de&lt;div&gt;la tarjeta son correctos&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-39" vertex="1">
+          <mxGeometry y="150" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-53" value="9. El sistema recibe que los fondos&lt;div&gt;son suficientes.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-39" vertex="1">
+          <mxGeometry y="190" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-54" value="10. El sistema registra el pago y cierra la&lt;div&gt;conexion con el servidor externo&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-39" vertex="1">
+          <mxGeometry y="230" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-40" value="Curso Alterno" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=90;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="2030" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-41" value="Post-condición" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-40" vertex="1">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-42" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;Paso ALT 3: El sistema no pudo establecer conexion con el servidor. Se notifica Error. Fin de CU.&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Paso ALT 8: Los datos recibidos por el sistema no son validos. Se notifica. Retoma desde el Paso 1.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Paso ALT 9: Los fondos recibidos no son suficientes. Se informa. Retoma desde le Paso 1.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=90;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="260" y="2030" width="460" height="120" as="geometry">
+            <mxRectangle x="260" y="2030" width="570" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LXIAUrIXAFPE3T2I159S-55" value="Se realizo el pago con tarjeta de la inscripcion a una carrera." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LXIAUrIXAFPE3T2I159S-42" vertex="1">
+          <mxGeometry y="90" width="460" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

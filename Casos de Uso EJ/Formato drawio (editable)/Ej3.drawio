@@ -1,0 +1,259 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="7ZB9nWRlDdmB5cCQ_iiZ">
+    <mxGraphModel dx="1035" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="173" y="70" width="480" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-10" value="Confeccionar&lt;div&gt;Minuta&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-1">
+          <mxGeometry x="60" y="50" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-11" value="Evaluar&amp;nbsp;&lt;div&gt;Minuta&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-1">
+          <mxGeometry x="100" y="370" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-12" value="Verificar&lt;div&gt;CUIT&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-1">
+          <mxGeometry x="280" y="270" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="yInh4_jOg7Y6eyn60yDT-1" source="yInh4_jOg7Y6eyn60yDT-12" target="yInh4_jOg7Y6eyn60yDT-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="360" />
+              <mxPoint x="240" y="360" />
+              <mxPoint x="240" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-17" value="extends" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-1">
+          <mxGeometry x="280" y="370" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-20" value="Imprimir&lt;div&gt;Minuta&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-1">
+          <mxGeometry x="87" y="270" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="yInh4_jOg7Y6eyn60yDT-3" target="yInh4_jOg7Y6eyn60yDT-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-3" value="Servidor&lt;div&gt;de AFIP&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="yInh4_jOg7Y6eyn60yDT-7" target="yInh4_jOg7Y6eyn60yDT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-7" value="Empleado de Mesa&lt;div&gt;de Entradas&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="yInh4_jOg7Y6eyn60yDT-8" target="yInh4_jOg7Y6eyn60yDT-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="yInh4_jOg7Y6eyn60yDT-8" target="yInh4_jOg7Y6eyn60yDT-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-8" value="Empleado&amp;nbsp;&lt;div&gt;de&lt;/div&gt;&lt;div&gt;Rendiciones&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="390" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-22" value="Nombre" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="113" y="720" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-23" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-22">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-24" value="Confeccionar Minuta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="253" y="720" width="457" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-35" value="Especifica la manera en la que el empleado confecciona una minuta" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-24">
+          <mxGeometry y="30" width="457" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-25" value="Actores" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="113" y="780" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-26" value="Pre-condiciones" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-25">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-27" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;Empleado de Mesa de Entradas&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="253" y="780" width="457" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-36" value="--------------" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-27">
+          <mxGeometry y="30" width="457" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-28" value="Curso Normal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="113" y="840" width="140" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-29" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="253" y="840" width="230" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-37" value="1. El empleado selecciona Confeccionar&lt;div&gt;Minuta&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-29">
+          <mxGeometry y="30" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-39" value="3. El empleado ingresa los datos&lt;div&gt;solicitados.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-29">
+          <mxGeometry y="70" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-44" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-29">
+          <mxGeometry y="110" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-43" value="&amp;nbsp; &amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-29">
+          <mxGeometry y="180" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-30" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="483" y="840" width="227" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-38" value="2. El sistema solicita los siguientes&amp;nbsp;&lt;div&gt;datos:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;nombre y número de CUIT de una&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;persona&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;a contratar,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tipo de contrato,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;fecha de&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;comienzo,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;duración y monto,&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-30">
+          <mxGeometry y="30" width="227" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-40" value="4. El sistema verifica que los montos&lt;div&gt;no superen los $25.000 y que la&lt;/div&gt;&lt;div&gt;duracion no supere los 5 meses.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-30">
+          <mxGeometry y="100" width="227" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-41" value="5. El sistema confecciona la minuta,&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;genera un numero unico y&lt;/span&gt;&lt;div&gt;&lt;div&gt;queda pendiende de aprobacion&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-30">
+          <mxGeometry y="160" width="227" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-31" value="Curso Alterno" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="113" y="1060" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-32" value="Post-condición" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-31">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-33" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;Paso ALT 4: El monto supera el limite establecido. Se notifica. Retoma paso 2.&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Paso ALT 4; La duracion del contrato es superior a los 5 meses. Se notifca. Retoma paso 2.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="253" y="1060" width="457" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-42" value="Se confecciono una minuta nueva y se dejo pendiende de aprobacion" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-33">
+          <mxGeometry y="60" width="457" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-45" value="Nombre" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="1260" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-46" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-45">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-47" value="Evaluar Minuta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="1260" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-57" value="Especifica la manera en la que un Empleado de Rendiciones Evalua una minuta&lt;div&gt;pendiente de aprobacion.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-47">
+          <mxGeometry y="30" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-48" value="Actores" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="1330" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-49" value="Pre-condiciones" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-48">
+          <mxGeometry y="20" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-50" value="Empleado de Rendiciones" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="1330" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-58" value="-" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-50">
+          <mxGeometry y="20" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-51" value="Curso Normal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="1380" width="140" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-52" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="1380" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-59" value="1. El empleado selecciona&lt;div&gt;Evaluar Minuta.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-52">
+          <mxGeometry y="30" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-61" value="3. El empleado ingresa un numero&lt;div&gt;de minuta.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-52">
+          <mxGeometry y="70" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-53" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="484" y="1380" width="236" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-60" value="2. El sistema solicita un numero&amp;nbsp;&lt;div&gt;de minuta&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-53">
+          <mxGeometry y="30" width="236" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-62" value="4. El sistema valida el numero y muestra&lt;div&gt;los&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;datos de&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;la minuta del numero&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ingresado.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-53">
+          <mxGeometry y="70" width="236" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-63" value="5. El sistema verifica que los contratos&amp;nbsp;&lt;div&gt;vigentes&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;de la minuta sean menores a 3.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-53">
+          <mxGeometry y="130" width="236" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-64" value="6. El sistema ejecuta el Caso de&amp;nbsp;&lt;div&gt;Uso Verificar CUIT.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-53">
+          <mxGeometry y="170" width="236" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-65" value="7. El sistema agrega la minuta al&lt;div&gt;listado de minutas aprobadas.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-53">
+          <mxGeometry y="210" width="236" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-54" value="Curso Alterno" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="1640" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-55" value="Post-condición" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-54">
+          <mxGeometry y="50" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-56" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;Paso ALT 4: El numero de minuta no existe. Se informa. Retoma Paso 2.&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Paso ALT 5: Los contratos vigentes son mayores a 3. Se informa. Fin de CU.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Paso ALT 6: El numero de CUIT no esta validado por AFIP. Se informa. Fin de CU.&amp;nbsp;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="254" y="1640" width="460" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-66" value="Se aprobo una minuta y se agrego a la lista de minutas aprobadas." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-56">
+          <mxGeometry y="50" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-67" value="Nombre" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="1780" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-68" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-67">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-69" value="Verificar CUIT" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="1780" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-79" value="Especifica la manera en la que se verifica el CUIT en los servidores de AFIP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-69">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-70" value="Actores" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="1840" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-71" value="Pre-condiciones" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-70">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-72" value="Servidor de AFIP" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="1840" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-80" value="Se debe haber ejecutado el Caso de Uso: Evaluar Minuta" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-72">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-73" value="Curso Normal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="1900" width="140" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-74" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="1900" width="249" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-82" value="2. El Servidor recibe el TOKEN y establece&lt;div&gt;conexion con el sistema.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-74">
+          <mxGeometry y="30" width="249" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-83" value="3. El servidor verifica que el TOKEN&lt;div&gt;es correcto.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-74">
+          <mxGeometry y="70" width="249" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-88" value="4. El Servidor solicita un numero de CUIT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-74">
+          <mxGeometry y="110" width="249" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-84" value="6. El Servidor verifica si el CUIT esta&amp;nbsp;&lt;div&gt;habilitado.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-74">
+          <mxGeometry y="140" width="249" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-85" value="7. El Servidor envia al sistema que el CUIT&lt;div&gt;esta habilitado.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-74">
+          <mxGeometry y="180" width="249" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-75" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="503" y="1900" width="217" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-81" value="1. El sistema envia un TOKEN para&amp;nbsp;&lt;div&gt;establecer conexion con el Servidor.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-75">
+          <mxGeometry y="30" width="217" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-89" value="5. El sistema envia el CUIT al servidor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-75">
+          <mxGeometry y="70" width="217" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-86" value="8. El sistema recibe la respuesta y&lt;div&gt;cierra la conexion con el servidor.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-75">
+          <mxGeometry y="100" width="217" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-76" value="Curso Alterno" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="2120" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-77" value="Post-condición" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-76">
+          <mxGeometry y="50" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-78" value="&lt;div&gt;Paso ALT 1: Falla la conexion con el servidor. Se informa Error. Fin CU&lt;/div&gt;Paso ALT 3: El TOKEN es incorrecto. Se informa. Fin de CU&lt;div&gt;Paso ALT 6: El CUIT esta inhabilitado. Se informa. Fin CU&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="2120" width="460" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yInh4_jOg7Y6eyn60yDT-87" value="Se verifico si el CUIT estaba habilitado" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="yInh4_jOg7Y6eyn60yDT-78">
+          <mxGeometry y="50" width="460" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
