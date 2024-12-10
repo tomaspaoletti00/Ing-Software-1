@@ -1,0 +1,202 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="6yfzXEf03R1IXEIyM4AV">
+    <mxGraphModel dx="1035" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-1" value="ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="10" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-2" value="TITULO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-3" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-4" value="Autenticar Usuario" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="10" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-5" value="REGLAS DEL&lt;div&gt;NEGOCIO&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="70" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-6" value="-Creedenciales correctas&lt;div&gt;-Conexion sistema del observatorio&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="70" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-7" value="CRITERIOS DE ACEPTACION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="180" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-8" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="180" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-9" value="ESCENARIO 1:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="184" y="240" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-10" value="Autenticacion Exitosa:&lt;div&gt;Dado que el usuario &quot;abc&quot; existe, &quot;123&quot; es su contraseña y se establecio conexion con el sistema general del observatorio.&lt;/div&gt;&lt;div&gt;Cuando el operario ingresa el nombre &quot;abc&quot; y la contreseña &quot;123&quot;&lt;/div&gt;&lt;div&gt;Entonces el sistema retorna un token indicando q la autenticacion fue exitosa e inicia la sesion del usuario.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="240" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-11" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="114" y="10" width="596" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-12" value="ESCENARIO 2:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-11">
+          <mxGeometry x="70" y="350" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-13" value="Autenticacion Fallida por Usuario Incorrecto:&lt;div&gt;Dado que el usuario &quot;hola&quot; no existe, y se establecio conexion con el sistema general del observatorio&lt;/div&gt;&lt;div&gt;Cuando el operario ingresa el nombre &quot;hola&quot; y la contreseña &quot;222&quot;&lt;/div&gt;&lt;div&gt;Entonces el sistema retorna un token indicando q la autenticacion fue fallida por usuario no existente&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-11">
+          <mxGeometry x="170" y="350" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-14" value="ESCENARIO 3:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-11">
+          <mxGeometry x="70" y="470" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-15" value="Autenticacion Fallida por Contraseña Incorrecta:&lt;div&gt;Dado que el usuario &quot;Javier&quot; existe, &quot;444&quot; es su contraseña, y se establecio conexion con el sistema general del observatorio&lt;/div&gt;&lt;div&gt;Cuando el operario ingresa el nombre &quot;Javier&quot; y la contreseña &quot;333&quot;&lt;/div&gt;&lt;div&gt;Entonces el sistema retorna un token indicando q la autenticacion fue fallida por contraseña incorrecta.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-11">
+          <mxGeometry x="170" y="470" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-16" value="Como operario quiero autenticarme para poder ingresar al sistema" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-11">
+          <mxGeometry x="156" y="30" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-18" value="ESCENARIO 4:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="184" y="600" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-19" value="Autenticacion Fallida por Contraseña Incorrecta:&lt;div&gt;Dado que el usuario &quot;Gustavo&quot; existe, &quot;111&quot; es su contraseña, y no se establecio conexion con el sistema del banco central&lt;/div&gt;&lt;div&gt;Cuando el operario ingresa el nombre &quot;Gustavo&quot; y la contreseña &quot;111&quot;&lt;/div&gt;&lt;div&gt;Entonces el sistema retorna un token indicando q la autenticacion fue fallida por error en la conexion con el sistema general del observatorio&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="600" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-20" value="ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="740" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-21" value="TITULO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-20">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-22" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-20">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-23" value="Cargar Imagen Nueva" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="740" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-24" value="REGLAS DEL&lt;div&gt;NEGOCIO&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="800" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-25" value="-Solo se pueden cargar imagenes mayores o iguales a 2MP" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="800" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-26" value="CRITERIOS DE ACEPTACION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="910" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-27" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="910" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-28" value="ESCENARIO 1:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="184" y="970" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-29" value="Carga Exitosa:&lt;div&gt;Dado que el archivo &quot;Foto1&quot; es de 4MP&lt;/div&gt;&lt;div&gt;Cuando el usuario selecciona &quot;Foto1&quot; en escala de Grises&lt;/div&gt;&lt;div&gt;Entonces el sistema carga la nueva imagen.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="970" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-30" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="114" y="740" width="599" height="471" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-31" value="ESCENARIO 2:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-30">
+          <mxGeometry x="70" y="350" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-32" value="Carga Fallida por Falta de MP:&lt;div&gt;Dado que el archivo &quot;Foto3&quot; es de 1MP&lt;/div&gt;&lt;div&gt;Cuando el usuario selecciona &quot;Foto3&quot; en Color&lt;/div&gt;&lt;div&gt;Entonces el sistema Informa que el archivo no tiene los suficientes MP.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-30">
+          <mxGeometry x="170" y="350" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-35" value="Como operario quiero cargar una imagen nueva al sistema para poder analizarla&amp;nbsp;&lt;div&gt;o recortarla&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-30">
+          <mxGeometry x="135" y="24" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-36" value="ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="1230" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-37" value="TITULO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-36">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-38" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-36">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-39" value="Recortar Area de Interes" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="1230" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-40" value="REGLAS DEL&lt;div&gt;NEGOCIO&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="1290" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-41" value="&lt;div&gt;-Debe haber una imagen cargada.&lt;/div&gt;-El Maximo de areas a recortar es 4.&lt;div&gt;-No se deben superponer areas.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="1290" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-42" value="CRITERIOS DE ACEPTACION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="1400" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-43" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="1400" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-44" value="ESCENARIO 1:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="184" y="1460" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-45" value="Recorte Exitoso:&lt;div&gt;Dado que la imagen &quot;foto&quot; esta cargada, el area &quot;2&quot; no se superpone con otra y se recortaron anteriormente 2 areas.&lt;/div&gt;&lt;div&gt;Cuando el operario reorta el area &quot;2&quot;,&lt;/div&gt;&lt;div&gt;Entonces el sistema almacena los resultados en disco.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="1460" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-46" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="114" y="1230" width="600" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-47" value="ESCENARIO 2:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-46">
+          <mxGeometry x="70" y="350" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-48" value="Recorte Fallido por exceso de Areas:&lt;div&gt;Dado que la imagen &quot;imagen&quot; esta cargada,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;el area &quot;5&quot; no se superpone con otra y se recortaron anteriormente 4 areas.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Cuando el operario recorta el area &quot;5&quot;,&lt;/div&gt;&lt;div&gt;Entonces el sistema informa q se excedio el limte de areas a recortar.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-46">
+          <mxGeometry x="170" y="350" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-49" value="ESCENARIO 3:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-46">
+          <mxGeometry x="70" y="470" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-50" value="&lt;pre style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; white-space: normal;&quot;&gt;Recorte Fallido por Superposicion:&lt;/span&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; white-space: normal;&quot;&gt;Dado que la imagen &quot;imagen&quot; esta cargada,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;el area &quot;7&quot; se superpone con otra y se recortaron anteriormente 3 areas.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; white-space: normal;&quot;&gt;Cuando el operario recorta el area &quot;7&quot;,&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; white-space: normal;&quot;&gt;Entonces el sistema informa q el area a recortar se superpone con otra.&lt;/div&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-46">
+          <mxGeometry x="170" y="470" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-51" value="Como operario quiero recortar una imagen para observarla mejor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-46">
+          <mxGeometry x="146" y="30" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-52" value="ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="1850" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-53" value="TITULO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-52">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-54" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-52">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-55" value="Pedir Un Listado" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="1850" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-56" value="REGLAS DEL&lt;div&gt;NEGOCIO&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="1910" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-57" value="-El maximo de imagenes a visualizar es 20.&lt;div&gt;-Las fechas de incio no deben ser menor a las de fin, ni pueden ser futuras al presente.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="1910" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-58" value="CRITERIOS DE ACEPTACION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="2020" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-59" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="2020" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-60" value="ESCENARIO 1:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="184" y="2080" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-61" value="Listado Exitoso:&lt;div&gt;Dado que el rango de fechas 1.1.2022 y 1.1.2024 existe y se registraron&lt;/div&gt;&lt;div&gt;17 imagenes en ese rango.&lt;/div&gt;&lt;div&gt;Cuando el supervisor ingresa las fechas 1.1.2022 y 1.1.2024&lt;/div&gt;&lt;div&gt;Entonces el sistema visualiza las imagenes una debajo de la otra.&amp;nbsp;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="2080" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-62" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="114" y="1850" width="600" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-63" value="ESCENARIO 2:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-62">
+          <mxGeometry x="70" y="350" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-64" value="Fallo por Exceso de Imagenes:&lt;div&gt;&lt;div&gt;Dado que el rango de fechas 1.1.2020 y 1.1.2021 existe y se registraron&lt;/div&gt;&lt;div&gt;40 imagenes en ese rango.&lt;/div&gt;&lt;div&gt;Cuando el supervisor ingresa las fechas 1.1.202o y 1.1.2021&lt;/div&gt;&lt;div&gt;Entonces el sistema informa q no se pueden visualizar mas de 20 imagenes&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-62">
+          <mxGeometry x="170" y="350" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-65" value="ESCENARIO 3:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-62">
+          <mxGeometry x="70" y="470" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-66" value="&lt;pre style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-62">
+          <mxGeometry x="170" y="470" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5fgep8B19wSM0rJI1Ly-67" value="Como supervisor quiero pedir un listado de imganes para revisar" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P5fgep8B19wSM0rJI1Ly-62">
+          <mxGeometry x="166" y="28" width="370" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

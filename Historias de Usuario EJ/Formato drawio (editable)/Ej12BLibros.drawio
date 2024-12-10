@@ -1,0 +1,250 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="Mnn7C7-7VE1_M-MDiYTx">
+    <mxGraphModel dx="880" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-1" value="ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="80" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-2" value="TITULO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-3" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-4" value="Registrar Usuario" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="80" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-16" value="Como visitante quiero registrarme en la pagina para comprar libros" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-4">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-5" value="REGLAS DEL&lt;div&gt;NEGOCIO&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-6" value="-El mail no debe existir en el sistema.&lt;div&gt;-La contraseña debe ser de 6 digitos.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="140" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-7" value="CRITERIOS DE ACEPTACION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="250" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-8" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="250" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-9" value="ESCENARIO 1:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="184" y="310" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-10" value="Registro Exitoso:&lt;div&gt;Dado q el mail &quot;a@gmail.com&quot; no existe en el sistema, y que la clave a12345 es de 6 caracteres.&lt;/div&gt;&lt;div&gt;Cuando el visitante ingresa el nombre &quot;Alejandro Simon&quot;, el DNI 45454545, el mail &quot;a@gmail.com&quot; y la clave a12345.&lt;/div&gt;&lt;div&gt;Entonces el sistema genera un codigo de 16 digitos y lo envia al correo ingresado para que el visitante confirme la cuenta.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="310" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-11" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="114" y="80" width="600" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-12" value="ESCENARIO 2:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-11">
+          <mxGeometry x="70" y="350" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-13" value="Registro Fallido por MAIL existente:&lt;div&gt;Dado que el mail &quot;b@gmailcom&quot; ya existe en el sistema y q la clave 123456 es de 6 caracteres&lt;/div&gt;&lt;div&gt;CUando el visitante ingresa el nombre &quot;Tomas Paoletti&quot;, el DNI &quot;43015801&quot;, el mail &quot;b@gmail.com&quot; y la clave 123456&lt;/div&gt;&lt;div&gt;Entonces el sistema informa que el correo ya esta registrado.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-11">
+          <mxGeometry x="170" y="350" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-14" value="ESCENARIO 3:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-11">
+          <mxGeometry x="70" y="470" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-15" value="Registro Fallido por CONTRASEÑA invalida:&lt;div&gt;&lt;div&gt;Dado que el mail &quot;c@gmailcom&quot; ya existe en el sistema y q la clave HOLA es de 6 caracteres&lt;/div&gt;&lt;div&gt;CUando el visitante ingresa el nombre &quot;Luciana Martinez&quot;, el DNI &quot;42015801&quot;, el mail &quot;c@gmail.com&quot; y la clave HOLA&lt;/div&gt;&lt;div&gt;Entonces el sistema informa que la contraseña no es de 6 digitos.&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-11">
+          <mxGeometry x="171" y="470" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-17" value="ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="700" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-18" value="TITULO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-17">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-19" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-17">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-20" value="Confirmar Cuenta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="700" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-32" value="Como visitante quiero confirmar mi cuenta para poder registrarme definitivamente" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-20">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-21" value="REGLAS DEL&lt;div&gt;NEGOCIO&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="760" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-22" value="-Correo Valido&lt;div&gt;-Codigo de 16 digitos valido&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="760" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-23" value="CRITERIOS DE ACEPTACION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="870" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-24" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="870" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-25" value="ESCENARIO 1:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="184" y="930" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-26" value="Confirmacion Exitosa:&lt;div&gt;Dado que para el correo &quot;a@gmail.com&quot;, su codigo correspondiente para confirmar&quot;1029384756102938&quot; es valido.&lt;/div&gt;&lt;div&gt;Cuando el visitante ingresa&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;el Correo &quot;a@gmail.com&quot; y el codigo &quot;1029384756102938&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Entonces el sistema confirma la cuenta y registra definivitamente al usuario.&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="930" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-27" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="114" y="700" width="600" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-28" value="ESCENARIO 2:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-27">
+          <mxGeometry x="70" y="350" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-29" value="Registro Fallido por codigo invalido:&lt;div&gt;&lt;div&gt;Dado que el correo &quot;b@gmail.com&quot;, el codigo para confirmar&quot;1029384756102938&quot; no es valido.&lt;/div&gt;&lt;div&gt;Cuando el visitante ingresa&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;el Correo &quot;b@gmail.com&quot; y el codigo &quot;1029384756102938&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Entonces el sistema informa que el codigo para confirmar es invalido.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-27">
+          <mxGeometry x="170" y="350" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-30" value="ESCENARIO 3:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-27">
+          <mxGeometry x="70" y="470" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-31" value="Registro Fallido por Cuenta Inexistente:&lt;div&gt;Dado que el correo &quot;abc&quot; no existe en el sistema&lt;/div&gt;&lt;div&gt;Cuando el visitante ingresa el correo &quot;abc&quot; y el codigo &quot;X16&quot;&lt;/div&gt;&lt;div&gt;Entonces el sistema informa que no existe cuenta a confirmar asociada al mail ingresado.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-27">
+          <mxGeometry x="170" y="470" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-33" value="ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1330" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-34" value="TITULO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-33">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-35" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-33">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-36" value="Comprar Libro" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="1330" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-48" value="Como Usuario Registrado quiero comprar un libro para leer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-36">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-37" value="REGLAS DEL&lt;div&gt;NEGOCIO&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1390" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-38" value="-El nombre de la Tarjeta debe coicidir con el nombre de la cuenta.&lt;div&gt;-La Tarjeta debe ser valida.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="1390" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-39" value="CRITERIOS DE ACEPTACION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1500" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-40" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1500" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-41" value="ESCENARIO 1:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1560" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-42" value="Compra Exitosa:&lt;div&gt;Dado que la Tarjeta &quot;XXX5&quot; es valida, que la conexion con el servidor del banco es exitosa, y el nombre de la cuenta es &quot;Julian Weich&quot;&lt;/div&gt;&lt;div&gt;Cuando el usuario ingresa el apellido &quot;Weich, nombre &quot;Julian&quot;, y Nro &quot;XXX5&quot;,&lt;/div&gt;&lt;div&gt;Entonces se efectua la compra enviando un enlace de descargar al correo del usuario.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1560" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-43" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1330" width="600" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-44" value="ESCENARIO 2:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-43">
+          <mxGeometry x="70" y="350" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-45" value="Compra Fallida por Nombre invalido:&lt;div&gt;Dado que la Tarjeta &quot;XXX&quot; es valida, que la conexion con el servidor del banco es exitosa, y el nombre de la cuenta es &quot;Felipe Garcia&quot;.&lt;/div&gt;&lt;div&gt;Cunado el usuario ingresa el apellido &quot;Garcia&quot;, el nombre &quot;Mariana&quot; y el Nro &quot;XXX&quot;.&lt;/div&gt;&lt;div&gt;Entonces se cancela la compra por discrepancia entre los nombres de la cuenta y la tarjeta.&amp;nbsp;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-43">
+          <mxGeometry x="170" y="350" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-46" value="ESCENARIO 3:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-43">
+          <mxGeometry x="70" y="470" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-47" value="Compra Fallida por Tarjeta INVALIDA:&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Dado que la Tarjeta &quot;SSS&quot; no es valida, que la conexion con el servidor del banco es exitosa, y el nombre de la cuenta es &quot;Agustin Dibernardo&quot;.&lt;/span&gt;&lt;div&gt;Cunado el usuario ingresa el apellido &quot;Dibernardo&quot;, el nombre &quot;Agustin&quot; y el Nro &quot;SSS&quot;.&lt;/div&gt;&lt;div&gt;Entonces se cancela la compra porque la tarjeta no es valida para realizar la compra.&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-43">
+          <mxGeometry x="170" y="470" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-64" value="ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1960" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-65" value="TITULO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-64">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-66" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-64">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-67" value="Iniciar Sesion" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="1960" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-79" value="Como Usuario Registrado quiero iniciar sesion para comprar libros" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-67">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-68" value="REGLAS DEL&lt;div&gt;NEGOCIO&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="2020" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-69" value="-La cuenta debe existir en el sistema." style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="2020" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-70" value="CRITERIOS DE ACEPTACION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="2130" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-71" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="2130" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-72" value="ESCENARIO 1:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="2190" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-73" value="Inicio de Sesion Exitoso:&lt;div&gt;Dado que el correo &quot;xx&quot; y la contraseña &quot;xdxd&quot; son validas.&lt;/div&gt;&lt;div&gt;Cuando el usuario ingresa el correo &quot;xx&quot; y la contraseña &quot;xdxd&quot;.&lt;/div&gt;&lt;div&gt;Entonces el sistema inicia la sesion en la cuenta.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="2190" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-74" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1960" width="600" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-75" value="ESCENARIO 2:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-74">
+          <mxGeometry x="70" y="350" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-76" value="Fallo por Cuenta no existente:&lt;div&gt;&lt;div&gt;Dado que el correo &quot;xx&quot; no existe en el sistema&lt;/div&gt;&lt;div&gt;Cuando el usuario ingresa el correo &quot;xx&quot; y la contraseña &quot;xdxd&quot;.&lt;/div&gt;&lt;div&gt;Entonces el sistema informa q no existe una cuenta asociada a ese correo.&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-74">
+          <mxGeometry x="170" y="350" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-77" value="ESCENARIO 3:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-74">
+          <mxGeometry x="70" y="470" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-78" value="Fallo por Constraseña Erronea:&lt;div&gt;&lt;div&gt;Dado que la contraseña &quot;191919&quot; no es valida para el correo &quot;xx&quot;&lt;/div&gt;&lt;div&gt;Cuando el usuario ingresa el correo &quot;xx&quot; y la contraseña &quot;191919&quot;.&lt;/div&gt;&lt;div&gt;Entonces el sistema informa q la contraseña es incorrecta.&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-74">
+          <mxGeometry x="170" y="470" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-80" value="ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="2610" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-81" value="TITULO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-80">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-82" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-80">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-83" value="Ingresar ISBN" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="2610" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-95" value="Como Usuario Registrado quiero ingresar un ISBN para poder comprar un libro." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-83">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-84" value="REGLAS DEL&lt;div&gt;NEGOCIO&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="2670" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-85" value="-ISBN vailido" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="2670" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-86" value="CRITERIOS DE ACEPTACION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="2780" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-87" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="2780" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-88" value="ESCENARIO 1:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="2840" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-89" value="Ingreso de ISBN Exitoso:&lt;div&gt;Dado que el ISBN &quot;12345&quot; existe en el sistema.&lt;/div&gt;&lt;div&gt;Cuando el URegistrado ingresa el codigo de ISBN 12345&lt;/div&gt;&lt;div&gt;Entonces el sistema muestra la portada y descripcion del libro&lt;/div&gt;&lt;div&gt;y habilita la opcion de comprar.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="2840" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-90" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="2610" width="600" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-91" value="ESCENARIO 2:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-90">
+          <mxGeometry x="70" y="350" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-92" value="Ingreso de ISBN Inexistente:&lt;div&gt;Dado que el ISBN &quot;13232&quot; no existe en el sistema.&lt;/div&gt;&lt;div&gt;Cuando el URegistrado ingresa el codigo de ISBN 1323&lt;/div&gt;&lt;div&gt;Entonces el sistema informa que el ISBN no es valido.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-90">
+          <mxGeometry x="170" y="350" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-93" value="ESCENARIO 3:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-90">
+          <mxGeometry x="70" y="470" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3eRoRjSr4uKufoWmJXe3-94" value="&lt;pre style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3eRoRjSr4uKufoWmJXe3-90">
+          <mxGeometry x="170" y="470" width="430" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

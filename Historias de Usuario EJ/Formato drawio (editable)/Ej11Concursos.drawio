@@ -1,0 +1,106 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="ocjni34C814vdi15a-YE">
+    <mxGraphModel dx="880" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CfjN4AR8pxs_KgCks1C9-1" value="ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="114" y="50" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CfjN4AR8pxs_KgCks1C9-2" value="TITULO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="CfjN4AR8pxs_KgCks1C9-1" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CfjN4AR8pxs_KgCks1C9-3" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="CfjN4AR8pxs_KgCks1C9-1" vertex="1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CfjN4AR8pxs_KgCks1C9-4" value="Registrar Usuario" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="254" y="50" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfjN4AR8pxs_KgCks1C9-16" value="Como docente quiero regitrarme en el sistema para poder inscribirme a un concurso" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="CfjN4AR8pxs_KgCks1C9-4" vertex="1">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CfjN4AR8pxs_KgCks1C9-5" value="REGLAS DEL&lt;div&gt;NEGOCIO&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="114" y="110" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfjN4AR8pxs_KgCks1C9-6" value="-El DNI debe ser entre 12 y 55 millones.&lt;div&gt;-El mail debe ser unico.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="255" y="110" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfjN4AR8pxs_KgCks1C9-7" value="CRITERIOS DE ACEPTACION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="114" y="220" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfjN4AR8pxs_KgCks1C9-8" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="284" y="220" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfjN4AR8pxs_KgCks1C9-9" value="ESCENARIO 1:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="184" y="280" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CfjN4AR8pxs_KgCks1C9-10" value="Registro Exitoso:&lt;div&gt;Dado que el DNI &quot;40015801&quot; es valido y el mail &quot;abc&quot; no existe en el sistema,&lt;/div&gt;&lt;div&gt;Cuando el docente ingresa el nombre &quot;Pepe, Argento&quot;, mail &quot;abc&quot;, DNI &quot;43015801&quot;,&lt;/div&gt;&lt;div&gt;Entonces&amp;nbsp;el sistema manda al mail ingresado la contraseña asignada automaticamente, y registra al nuevo usuario.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="284" y="280" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CfjN4AR8pxs_KgCks1C9-11" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
+          <mxGeometry x="114" y="50" width="600" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="CfjN4AR8pxs_KgCks1C9-12" value="ESCENARIO 2:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="CfjN4AR8pxs_KgCks1C9-11" vertex="1">
+          <mxGeometry x="70" y="350" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CfjN4AR8pxs_KgCks1C9-13" value="&lt;h4 style=&quot;font-size: 9px;&quot;&gt;Registro Fallido por Mail existente:&lt;br&gt;Dado que el DNI &quot;42000999&quot; es valido y que el mail &quot;qwerty&quot; ya existe en el&lt;br&gt; sistema.&lt;br&gt;Cuando el docente ingresa el nombre &quot;Agustin, Gonzalez&quot; mail &quot;qwerty&quot; DNI&lt;br&gt; &quot;42000999&quot;&lt;/h4&gt;&lt;div&gt;Entoces el sistema infoma que no es posible el registro ya que&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;el mail ya esta registrado en el sistema.&lt;/span&gt;&lt;/div&gt;&lt;pre style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="CfjN4AR8pxs_KgCks1C9-11" vertex="1">
+          <mxGeometry x="170" y="350" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CfjN4AR8pxs_KgCks1C9-14" value="ESCENARIO 3:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="CfjN4AR8pxs_KgCks1C9-11" vertex="1">
+          <mxGeometry x="70" y="470" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CfjN4AR8pxs_KgCks1C9-15" value="&lt;pre style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="CfjN4AR8pxs_KgCks1C9-11" vertex="1">
+          <mxGeometry x="170" y="470" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bkmY-uLI_9uHh7pdSOuc-1" value="ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="680" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bkmY-uLI_9uHh7pdSOuc-2" value="TITULO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bkmY-uLI_9uHh7pdSOuc-1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bkmY-uLI_9uHh7pdSOuc-3" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bkmY-uLI_9uHh7pdSOuc-1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bkmY-uLI_9uHh7pdSOuc-4" value="Inscribir a Concurso" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="680" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bkmY-uLI_9uHh7pdSOuc-16" value="Como docente quiero inscribirme a un concurso" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bkmY-uLI_9uHh7pdSOuc-4">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bkmY-uLI_9uHh7pdSOuc-5" value="REGLAS DEL&lt;div&gt;NEGOCIO&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="740" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bkmY-uLI_9uHh7pdSOuc-6" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="740" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bkmY-uLI_9uHh7pdSOuc-7" value="CRITERIOS DE ACEPTACION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="850" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bkmY-uLI_9uHh7pdSOuc-8" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="850" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bkmY-uLI_9uHh7pdSOuc-9" value="ESCENARIO 1:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="184" y="910" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bkmY-uLI_9uHh7pdSOuc-10" value="&lt;pre style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="910" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bkmY-uLI_9uHh7pdSOuc-11" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="114" y="680" width="600" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="bkmY-uLI_9uHh7pdSOuc-12" value="ESCENARIO 2:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="bkmY-uLI_9uHh7pdSOuc-11">
+          <mxGeometry x="70" y="350" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bkmY-uLI_9uHh7pdSOuc-13" value="&lt;pre style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="bkmY-uLI_9uHh7pdSOuc-11">
+          <mxGeometry x="170" y="350" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bkmY-uLI_9uHh7pdSOuc-14" value="ESCENARIO 3:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="bkmY-uLI_9uHh7pdSOuc-11">
+          <mxGeometry x="70" y="470" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bkmY-uLI_9uHh7pdSOuc-15" value="&lt;pre style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="bkmY-uLI_9uHh7pdSOuc-11">
+          <mxGeometry x="170" y="470" width="430" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

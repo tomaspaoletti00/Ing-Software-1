@@ -1,0 +1,106 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="n8W55cgtL6NLAZlanV_L">
+    <mxGraphModel dx="880" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-1" value="ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="30" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-2" value="TITULO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZA1wl-eO_w7PbBIQ2Bjk-1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-3" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZA1wl-eO_w7PbBIQ2Bjk-1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-4" value="Confeccionar Minuta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="30" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-5" value="REGLAS DEL&lt;div&gt;NEGOCIO&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="90" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-6" value="1. Los montos no deben superar los 25 mil.&lt;div&gt;2. La duracion del contrato no debe ser mayor a 6 meses.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="90" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-7" value="CRITERIOS DE ACEPTACION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-8" value="Confeccionar Minuta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-9" value="ESCENARIO 1:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="260" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-10" value="Confeccion Exitosa:&lt;div&gt;Dado que la minuta no existe, que el monto es 17 mil es valido y la duracion es de 4 meses es valida.&lt;/div&gt;&lt;div&gt;Cuando el EME ingresa el nombre &quot;Jose&quot;, el cuit &quot;4422313&quot;, tipo de contrato&lt;/div&gt;&lt;div&gt;&quot;temporal&quot;, fecha de comienzo &quot;9.10.09&quot;, duracion 4 meses, monto 17 mil.&lt;/div&gt;&lt;div&gt;Entonces el sistema le asoscia un numero a la minuta e informa el exito.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="260" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-11" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="30" width="600" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-12" value="ESCENARIO 2:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZA1wl-eO_w7PbBIQ2Bjk-11">
+          <mxGeometry x="70" y="350" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-13" value="Fallo de confeccion por monto invalido:&lt;div&gt;Dado que la minuta no existe, que el monto 30 mil no es valido y que la&amp;nbsp;&lt;/div&gt;&lt;div&gt;duracion de 3 meses es valida.&lt;/div&gt;&lt;div&gt;&lt;div&gt;Cuando el EME ingresa el nombre &quot;Roman&quot;, el cuit &quot;43222313&quot;, tipo de contrato&lt;/div&gt;&lt;div&gt;&quot;temporal&quot;, fecha de comienzo &quot;9.11.09&quot;, duracion 3 meses, monto 30 mil.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Entonces el sistema informa que el monto es superior al maximo.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZA1wl-eO_w7PbBIQ2Bjk-11">
+          <mxGeometry x="170" y="350" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-14" value="ESCENARIO 3:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZA1wl-eO_w7PbBIQ2Bjk-11">
+          <mxGeometry x="70" y="470" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-15" value="&lt;pre style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; white-space: normal;&quot;&gt;Fallo de confeccion por duracion invalida:&lt;/span&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; white-space: normal;&quot;&gt;Dado que la minuta no existe, que el monto es 15 mil es valido y la duracion es de 7 meses no es valida.&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; white-space: normal;&quot;&gt;Cuando el EME ingresa el nombre &quot;Felipe&quot;, el cuit &quot;7655313&quot;, tipo de contrato&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; white-space: normal;&quot;&gt;&quot;temporal&quot;, fecha de comienzo &quot;5.10.09&quot;, duracion 7 meses, monto 15 mil.&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; white-space: normal;&quot;&gt;Entonces el sistema informa que la duracion es superior a la maxima.&lt;/div&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZA1wl-eO_w7PbBIQ2Bjk-11">
+          <mxGeometry x="170" y="470" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-16" value="Como empleado de mesa de entradas quiero confeccionar una minuta para&lt;div&gt;que la empresa pueda contratar personal&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZA1wl-eO_w7PbBIQ2Bjk-11">
+          <mxGeometry x="135" y="25" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-17" value="ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="650" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-18" value="TITULO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZA1wl-eO_w7PbBIQ2Bjk-17">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-19" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZA1wl-eO_w7PbBIQ2Bjk-17">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-20" value="Evaluar Minuta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="650" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-32" value="Como empleado de rendiciones quiero evaluar una minuta para que la empresa&amp;nbsp;&lt;div&gt;contrate a un nuevo empleado.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZA1wl-eO_w7PbBIQ2Bjk-20">
+          <mxGeometry y="20" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-21" value="REGLAS DEL&lt;div&gt;NEGOCIO&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="710" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-22" value="1. Persona con menos de 3 contratos vigentes.&lt;div&gt;2. Persona con CUIT habilitado por la AFIP.&lt;/div&gt;&lt;div&gt;3. Establecer conexion con la afip.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="710" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-23" value="CRITERIOS DE ACEPTACION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="820" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-24" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="820" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-25" value="ESCENARIO 1:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="880" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-26" value="Aprobacion de la Minuta:&lt;div&gt;Dado que la minuta &quot;1876&quot; se encuentra en el sistema, que la cantidad de contratos vigentes son 2, se establecio conexion&amp;nbsp; con el servidor de afip, y que el CUIT &quot;12345&quot; esta habilitado por la afip.&lt;/div&gt;&lt;div&gt;Cuando el Emp R, ingresa el numero de minuta &quot;1876&quot;.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Entonces el sistema aprueba la minuta y la agrega a la lista de minutas aprobadas.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="880" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-27" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="650" width="600" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-28" value="ESCENARIO 2:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZA1wl-eO_w7PbBIQ2Bjk-27">
+          <mxGeometry x="70" y="350" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-29" value="Fallo de Aprobacion por inhabiltacion de la AFIP:&lt;div&gt;Dado que la minuta &quot;2000&quot; se encuentra en el sistema, que la cantidad de contratos vigentes son 1, que se establecio conexion con AFIP y que el UIT&lt;/div&gt;&lt;div&gt;&quot;543321&quot; esta inhabilitado por la AFIP.&lt;/div&gt;&lt;div&gt;Cuando el EMP # ingresa el numero de minuta &quot;2000&quot;&lt;/div&gt;&lt;div&gt;Enotnces el sistema rechaza la aprobacion de la minuta.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZA1wl-eO_w7PbBIQ2Bjk-27">
+          <mxGeometry x="170" y="350" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-30" value="ESCENARIO 3:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZA1wl-eO_w7PbBIQ2Bjk-27">
+          <mxGeometry x="70" y="470" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZA1wl-eO_w7PbBIQ2Bjk-31" value="&lt;pre style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZA1wl-eO_w7PbBIQ2Bjk-27">
+          <mxGeometry x="170" y="470" width="430" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

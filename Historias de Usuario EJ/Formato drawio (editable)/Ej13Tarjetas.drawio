@@ -1,0 +1,202 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="TWsiBse194bjbd5jRulp">
+    <mxGraphModel dx="1035" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-1" value="ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="10" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-2" value="TITULO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-3" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-4" value="Autenticar Usuario" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="10" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-16" value="como Personal de Area o gerente quiero autenticarme para ingresar al sistema" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-4">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-5" value="REGLAS DEL&lt;div&gt;NEGOCIO&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="70" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-6" value="-Las credenciales deben ser corroboradas por el sistema del banco central" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="70" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-7" value="CRITERIOS DE ACEPTACION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="180" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-8" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="180" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-9" value="ESCENARIO 1:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="240" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-10" value="Autenticacion Exitosa:&lt;div&gt;Dado que la conexion con el sistea de BCRA es exitosa, q las credenciales &quot;sergio ramirex&quot; y la contraseña &quot;9999&quot; estan corroboradas por un token valido del sistema del BCRA&lt;/div&gt;&lt;div&gt;Cuando el personal de area o gerente ingresa la credencial &quot;sergio ramirez&quot; y la contraseña &quot;9999&quot;&lt;/div&gt;&lt;div&gt;Entonces el sistema incia sesion habilitando funcionalidades del sistema.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-11" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="10" width="600" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-12" value="ESCENARIO 2:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-11">
+          <mxGeometry x="70" y="350" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-13" value="Autetnicaion Fallida por TOkEN Invalido:&lt;div&gt;&lt;div&gt;Dado que la conexion con el sistea de BCRA es exitosa, q las credenciales &quot;sergio ramirex&quot; y la contraseña &quot;9999&quot; no estan corroboradas por un token valido del sistema del BCRA&lt;/div&gt;&lt;div&gt;Cuando el personal de area o gerente ingresa la credencial &quot;sergio ramirez&quot; y la contraseña &quot;9999&quot;&lt;/div&gt;&lt;div&gt;Entonces el sistema informa que las credenciales no son correctas.&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-11">
+          <mxGeometry x="170" y="350" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-14" value="ESCENARIO 3:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-11">
+          <mxGeometry x="70" y="470" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-15" value="&lt;pre style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-11">
+          <mxGeometry x="170" y="470" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-17" value="ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="630" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-18" value="TITULO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-17">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-19" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-17">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-20" value="Dar de Alta Tarjea" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="630" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-32" value="Como personal de area quiero dar de alta una tarjeta para q pueda realizar operaciones" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-20">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-21" value="REGLAS DEL&lt;div&gt;NEGOCIO&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="690" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-22" value="-La persona a dar de alta su tarjeta, debe ser cliente del banco.&lt;div&gt;-La persona a dar de alta su tarjeta, si es morosa en el sistama SIVA.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="690" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-23" value="CRITERIOS DE ACEPTACION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="800" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-24" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="800" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-25" value="ESCENARIO 1:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="860" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-26" value="Alta de Tarjeta Exitosa:&lt;div&gt;Dado que la persona con DNI 777 es cliente del banco, la conexion con el sistema SIVA es exitosa y no figura como morosa.&lt;/div&gt;&lt;div&gt;Cuando el Personal de Area ingresa el nombre &quot;Augusto Daniel&quot;, el DNI 777 y el CUIT 2-777-6 y selecciona Tipo GOLD.&lt;/div&gt;&lt;div&gt;Entonces el sistema da de alta la tarjeta con el numero otorgado por el sistema SIVA.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="860" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-27" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="630" width="600" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-28" value="ESCENARIO 2:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-27">
+          <mxGeometry x="70" y="350" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-29" value="Alta Fallida por Morosidad:&lt;div&gt;Dado que la persona con DNI 666 es cliente del banco, la conexion con el sistema SIA es exitosa y&amp;nbsp; figura como morosa&lt;/div&gt;&lt;div&gt;Cuando el Personal de Area ingresa el nombre Gustavo Alonso, el DNI 666, el CUIT 2-666.4 y seleccona el tipo BLACK&lt;/div&gt;&lt;div&gt;Entonces el sistema cancela el alta e informa que la persona se encuentra como morosa en el sistema SIVA&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-27">
+          <mxGeometry x="170" y="350" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-30" value="ESCENARIO 3:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-27">
+          <mxGeometry x="70" y="470" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-31" value="&lt;pre style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-27">
+          <mxGeometry x="170" y="470" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-33" value="ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1270" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-34" value="TITULO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-33">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-35" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-33">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-36" value="Dar de Baja Tarjeta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1270" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-48" value="Como Personal de Area quiero dar de baja una tarjeta para inhabiitar su uso" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-36">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-37" value="REGLAS DEL&lt;div&gt;NEGOCIO&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1330" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-38" value="La tarjeta debe haber sido de alta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1330" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-39" value="CRITERIOS DE ACEPTACION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1440" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-40" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1440" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-41" value="ESCENARIO 1:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1500" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-42" value="Baja Exitosa:&lt;div&gt;Dado que el N° de Tarjeta &quot;XXXX&quot; esta dada de alta en el sistema&lt;/div&gt;&lt;div&gt;Cuando el personal de area ingresa el numero de tarjeta &quot;XXXX&quot;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Entonces el sistema elimina la tarjeta de la base de datos del sistema&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1500" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-43" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1270" width="600" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-44" value="ESCENARIO 2:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-43">
+          <mxGeometry x="70" y="350" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-45" value="Baja Fallida por Tarjeta INVaLIDA:&lt;div&gt;Dado que el N° de Tarjeta &quot;YYYY&quot; no esta dada de alta en el sistema&lt;/div&gt;&lt;div&gt;Cuando el personal de area ingresa el numero de tarjeta &quot;YYYY&quot;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Entonces informa que no se pudo dar de baja la tarjeta.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-43">
+          <mxGeometry x="170" y="350" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-46" value="ESCENARIO 3:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-43">
+          <mxGeometry x="70" y="470" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-47" value="&lt;pre style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-43">
+          <mxGeometry x="170" y="470" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-50" value="ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1890" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-51" value="TITULO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-50">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-52" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-50">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-53" value="Listar Operaciones" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1890" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-65" value="Como Gerente de Banco quiero lista las operaciones bancarias realizadas para analisarlas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-53">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-54" value="REGLAS DEL&lt;div&gt;NEGOCIO&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1950" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-55" value="-Las fechas no deben ser futuras al presente,&lt;div&gt;-La fecha de inicio no deber ser mayor a la fecha de fin&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1950" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-56" value="CRITERIOS DE ACEPTACION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="2060" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-57" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2060" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-58" value="ESCENARIO 1:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2120" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-59" value="Listado Exitoso:&lt;div&gt;Dado que la fecha de incio &quot;9.10.2000&quot;&amp;nbsp; es menor a la fecha de fin &quot;9.10.2001&quot;, y niguna fecha es futura al presente.&lt;/div&gt;&lt;div&gt;Cuando el gerente ingresa las fecha de incio &quot;9.10.2000&quot; y la fecha de fin &quot;9.19.2001&quot;&lt;/div&gt;&lt;div&gt;Entonces el sistema muestra un listado de las operaciones realizadas entre las fechas ingresadas.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2120" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-60" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1890" width="600" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-61" value="ESCENARIO 2:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-60">
+          <mxGeometry x="70" y="350" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-62" value="&lt;pre style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; white-space: normal;&quot;&gt;Listado Exitoso:&lt;/span&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; white-space: normal;&quot;&gt;Dado que la fecha de incio &quot;9.10.2002&quot;&amp;nbsp; es mayor a la fecha de fin &quot;9.10.2001&quot;, y niguna fecha es futura al presente.&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; white-space: normal;&quot;&gt;Cuando el gerente ingresa las fecha de incio &quot;9.10.2002&quot; y la fecha de fin &quot;9.19.2001&quot;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; white-space: normal;&quot;&gt;Entonces el sistema informa que las fecha de incio no pueden ser mayores a las de fin.&lt;/div&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-60">
+          <mxGeometry x="170" y="350" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-63" value="ESCENARIO 3:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-60">
+          <mxGeometry x="70" y="470" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IP2sj9YTPv4a3W0wOscm-64" value="&lt;pre style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="IP2sj9YTPv4a3W0wOscm-60">
+          <mxGeometry x="170" y="470" width="430" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
