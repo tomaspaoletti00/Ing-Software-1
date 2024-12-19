@@ -1,0 +1,706 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="Im6T8DjrUIhHAoPhdeQH">
+    <mxGraphModel dx="1257" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-1" value="Parcial VIejo 28/10" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-2" value="ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-3" value="TITULO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-2">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-4" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-2">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-5" value="Registrar Usuario" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-17" value="Como usuario no registrado quiero dar de alta parcial una cuenta para comprar libros" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-5">
+          <mxGeometry y="30" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-6" value="REGLAS DEL&lt;div&gt;NEGOCIO&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-7" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="140" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-8" value="CRITERIOS DE ACEPTACION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="250" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-9" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="250" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-10" value="ESCENARIO 1:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="310" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-11" value="Registro Exitoso:&lt;div&gt;Dado que el correo &quot;abc@gmail.com&quot; no esta registrado en el sistema&lt;/div&gt;&lt;div&gt;Cuando el usuario no registrado ingresa el nombre &quot;Tomas&quot;, el apellido &quot;Paoletti&quot;, el DNI &quot;43015801&quot;, el correo &quot;abc@gmail.com&quot; y la clave &quot;123456&quot;&lt;/div&gt;&lt;div&gt;Entonces el sistema registra el correo y envia un codigo de 16 digitos al correo&lt;/div&gt;&lt;div&gt;para su confirmacion&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="310" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-12" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="600" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-13" value="ESCENARIO 2:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-12">
+          <mxGeometry x="70" y="350" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-14" value="Registro Fallido por Correo Existtente:&lt;div&gt;Dado que el correo &quot;hola@gmail.com&quot; esta registrado en el sistema&lt;/div&gt;&lt;div&gt;Cuando el usuario no registrado ingresa el nombre &quot;Alejandro&quot;, el apellido &quot;Paoletti&quot;, el DNI &quot;42434565&quot;, el correo &quot;hola@gmail.com&quot; y la clave &quot;654321&quot;&lt;/div&gt;&lt;div&gt;Entonces el sistema informa que el correo ya esta registrado en el sistema.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-12">
+          <mxGeometry x="170" y="350" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-15" value="ESCENARIO 3:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-12">
+          <mxGeometry x="70" y="470" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-16" value="&lt;pre style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-12">
+          <mxGeometry x="170" y="470" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-18" value="ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="700" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-19" value="TITULO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-18">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-20" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-18">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-21" value="Confirmar Registro" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="700" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-33" value="Como usuario no registrado quiero confirmar el alta de una cuenta para comprar libros" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-21">
+          <mxGeometry y="30" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-22" value="REGLAS DEL&lt;div&gt;NEGOCIO&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="760" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-23" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="760" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-24" value="CRITERIOS DE ACEPTACION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="870" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-25" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="870" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-26" value="ESCENARIO 1:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="930" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-27" value="Confirmacion Exitosa:&lt;div&gt;Dado que el codigo &quot;1234567887654321&quot; es correcto y corresponde al correo &quot;nuevo@gmail.com&quot; que esta registrado en el sistema.&lt;/div&gt;&lt;div&gt;Cuando el usuario no registrado ingresa en la pagina de confirmacion el codigo&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;1234567887654321&quot; y el correo&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;nuevo@gmail.com&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Entonces el sistema confirma el registro de la cuenta del Usuario No Registrado.&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="930" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-28" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="700" width="600" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-29" value="ESCENARIO 2:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-28">
+          <mxGeometry x="70" y="350" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-30" value="Confirmacion Fallida por Codigo Incorrecto:&lt;div&gt;Dado que el codigo &quot;9876543198765432&quot; no corresponde al correo &quot;alejandro@gmail.com&quot;&lt;/div&gt;&lt;div&gt;Cuando el usuario no registrado ingresa en la pagina de confirmacion el codigo &quot;9876543198765432&quot;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;y el correo&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;alejandro@gmail.com&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Entonces el sistema informa que el codigo no es correcto.&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-28">
+          <mxGeometry x="170" y="350" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-31" value="ESCENARIO 3:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-28">
+          <mxGeometry x="70" y="470" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-32" value="Confirmacion Fallida por Correo Incorrecto:&lt;div&gt;Dado que el correo &quot;sergio&lt;span style=&quot;background-color: initial;&quot;&gt;@gmail.com&quot; no esta registrado en el sistema&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Cuando el usuario no registrado ingresa en la pagina de confirmacion el codigo &quot;9876543198765432&quot;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;y el correo&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;sergio@gmail.com&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Entonces el sistema informa que el correo no es correcto.&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-28">
+          <mxGeometry x="170" y="470" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-34" value="ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1320" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-35" value="TITULO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-34">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-36" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-34">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-37" value="Ver LIbro" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1320" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-49" value="Como usuario visitante quiero ver un libro para poder comprarlo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-37">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-38" value="REGLAS DEL&lt;div&gt;NEGOCIO&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1380" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-39" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1380" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-40" value="CRITERIOS DE ACEPTACION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1490" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-41" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1490" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-42" value="ESCENARIO 1:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1550" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-43" value="VistaExitosa:&lt;div&gt;Dado que el ISBN &quot;H12&quot; esta registrado en el sistema&lt;/div&gt;&lt;div&gt;Cuando el usuario ingresa el ISBN &quot;H12&quot;&lt;/div&gt;&lt;div&gt;Entonces el sistema visualiza la portada y descripcion del libro con ese ISBN, y la opcion Comprar&amp;nbsp;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1550" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-44" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1320" width="600" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-45" value="ESCENARIO 2:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-44">
+          <mxGeometry x="70" y="350" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-46" value="Vista Fallida por ISBN inexistente:&lt;div&gt;Dado que el ISBN &quot;JK2&quot; no esta registrado en el sistema&lt;/div&gt;&lt;div&gt;Cuando el Usuario ingresa el ISBN &quot;JK2&quot;&lt;/div&gt;&lt;div&gt;Entonces el sistema informa que no existe un libro con ese ISBN&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-44">
+          <mxGeometry x="170" y="350" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-47" value="ESCENARIO 3:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-44">
+          <mxGeometry x="70" y="470" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-48" value="&lt;pre style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-44">
+          <mxGeometry x="170" y="470" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-50" value="ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1960" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-51" value="TITULO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-50">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-52" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-50">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-53" value="Comprar Libro" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1960" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-54" value="REGLAS DEL&lt;div&gt;NEGOCIO&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2020" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-55" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="2020" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-56" value="CRITERIOS DE ACEPTACION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2130" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-57" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="2130" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-58" value="ESCENARIO 1:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="2190" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-59" value="&lt;div&gt;Compra Exitosa:&lt;/div&gt;Dado que el nombre &quot;Tomas&quot; y apellido &quot;Paoletti&quot; esta registrado en el sistema y el nro de tarjeta &quot;11111111&quot; es correcto y pertenece a Tomas Paoletti&lt;div&gt;Cuando el usuario registrado con nombre &quot;Tomas&quot; y apellido &quot;Paoletti&quot; ingresa el nombre &quot;Tomas&quot; , el apellido &quot;Paoletti&quot; y el nro Tarjeta &quot;111111111&quot;&lt;/div&gt;&lt;div&gt;Entonces el sistema genera un enlace de descarga del libro para el usuario.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="2190" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-60" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1960" width="600" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-61" value="ESCENARIO 2:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-60">
+          <mxGeometry x="70" y="350" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-62" value="&lt;pre style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-60">
+          <mxGeometry x="170" y="350" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-63" value="ESCENARIO 3:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-60">
+          <mxGeometry x="70" y="470" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-64" value="&lt;pre style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=120;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-60">
+          <mxGeometry x="170" y="470" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-65" value="Como usuario quiero comprar un libro para poder leerlo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-60">
+          <mxGeometry x="190" y="28" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-66" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2700" width="600" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-69" value="Iniciar&lt;div&gt;Sesion&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-66">
+          <mxGeometry x="50" y="20" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-70" value="Cerrar&lt;div&gt;Sesion&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-66">
+          <mxGeometry x="60" y="100" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-71" value="Ver Libro" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-66">
+          <mxGeometry x="80" y="290" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="jDjw1Qbio6-0x3UyTMv_-66" source="jDjw1Qbio6-0x3UyTMv_-74" target="jDjw1Qbio6-0x3UyTMv_-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-74" value="Comprar&lt;div&gt;Libro&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-66">
+          <mxGeometry x="90" y="170" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-75" value="Pagar&lt;div&gt;Con&lt;/div&gt;&lt;div&gt;Tarjeta&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-66">
+          <mxGeometry x="350" y="110" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-76" value="Registrar&lt;div&gt;Usuario&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-66">
+          <mxGeometry x="80" y="450" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-77" value="Confirmar&lt;div&gt;Usuario&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-66">
+          <mxGeometry x="70" y="530" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-87" value="&amp;lt;Extend&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-66">
+          <mxGeometry x="280" y="140" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="jDjw1Qbio6-0x3UyTMv_-67" target="jDjw1Qbio6-0x3UyTMv_-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="jDjw1Qbio6-0x3UyTMv_-67" target="jDjw1Qbio6-0x3UyTMv_-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="jDjw1Qbio6-0x3UyTMv_-67" target="jDjw1Qbio6-0x3UyTMv_-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;endArrow=none;endFill=0;" edge="1" parent="1" source="jDjw1Qbio6-0x3UyTMv_-67" target="jDjw1Qbio6-0x3UyTMv_-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="2789" as="sourcePoint" />
+            <mxPoint x="480" y="2819" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="2789" />
+              <mxPoint x="300" y="2819" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jDjw1Qbio6-0x3UyTMv_-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="2930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-67" value="Usuario&lt;div&gt;Registrado&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2780" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="jDjw1Qbio6-0x3UyTMv_-68" target="jDjw1Qbio6-0x3UyTMv_-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="jDjw1Qbio6-0x3UyTMv_-68" target="jDjw1Qbio6-0x3UyTMv_-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jDjw1Qbio6-0x3UyTMv_-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="3100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-68" value="Usuario&lt;div&gt;No registrado&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="3140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="jDjw1Qbio6-0x3UyTMv_-72" target="jDjw1Qbio6-0x3UyTMv_-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-72" value="Usuario&lt;div&gt;Visitante&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="2970" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;endArrow=none;endFill=0;" edge="1" parent="1" source="jDjw1Qbio6-0x3UyTMv_-78" target="jDjw1Qbio6-0x3UyTMv_-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-78" value="Banco&lt;div&gt;Central&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2890" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-91" value="Nombre" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3360" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-92" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-91">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-93" value="Comprar Libro" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="3360" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-103" value="Este caso de uso especifica la manera en la que un Usuario Registrado compra un&amp;nbsp;&lt;div&gt;libro&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-93">
+          <mxGeometry y="20" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-94" value="Actores" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3420" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-95" value="Pre-condiciones" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-94">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-96" value="Usuario Registrado" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="3420" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-104" value="-Haber Ejectuado el Caso de Uso Iniciar Sesion" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-96">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-97" value="Curso Normal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3480" width="140" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-98" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="3480" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-186" value="1. El usuario Registrado selecciona&lt;div&gt;la opcion &quot;Comprar&quot;.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-98">
+          <mxGeometry y="30" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-188" value="3. El usuario R ingresa&lt;div&gt;los datos solicitados&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-98">
+          <mxGeometry y="70" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-99" value="Acciones del Sistema" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="3480" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-187" value="2. El sistema solicita los siguientes&lt;div&gt;datos: nombre, apellido y nro de Tarjeta&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-99">
+          <mxGeometry y="30" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-189" value="4. El sistema verifica el nombre ingresado&lt;div&gt;sea igual al del usuario registrado&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-99">
+          <mxGeometry y="70" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-190" value="5. El sistema verifica el apellido ingresado&lt;div&gt;sea igual al del usuario registrado&lt;/div&gt;&lt;div&gt;6. El sistema ejecuta el CU&amp;nbsp; &quot;Pagar&amp;nbsp;&lt;/div&gt;&lt;div&gt;Con Tarjeta&quot;.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-99">
+          <mxGeometry y="110" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-191" value="7. El sistema genera un enlace de&lt;div&gt;descarga y lo envia al correo del&amp;nbsp;&lt;/div&gt;&lt;div&gt;usuario R&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-99">
+          <mxGeometry y="180" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-100" value="Curso Alterno" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3730" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-102" value="Paso ALT 4: El nombre ingresado no coicide con el del Usuario Registrado. Retoma Paso 2.&lt;div&gt;Paso ALT 5: El apellido ingresado no coincide con el del Usuario Registrado. Retoma Paso 2.&lt;/div&gt;&lt;div&gt;Paso ALT 6: El pago no se realiza. Se notifica al Usuario R. Fin de CU.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=70;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="3730" width="460" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-192" value="Se realizo la compra de un libro" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-102">
+          <mxGeometry y="70" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-105" value="Nombre" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3850" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-106" value="Descripción" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-105">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-107" value="Pagar Con Tarjeta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="3850" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-117" value="Este CU especifica la manera en la que un usuario registrado paga con tarjeta un libro" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-107">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-108" value="Actores" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3910" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-109" value="Pre-condiciones" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-108">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-110" value="Usuario Registrado, Banco Central" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="3910" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-118" value="Se debe haber ejecutado el CU &quot;Comprar Libro&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-110">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-111" value="Curso Normal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3970" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-112" value="Acciones del Actor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="3970" width="235" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-193" value="2. El usuario R ingresa el codigo&amp;nbsp;&lt;div&gt;solicitado&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-112">
+          <mxGeometry y="30" width="235" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-195" value="4. El banco central acepta la conexion&lt;br&gt;&lt;div&gt;con el sistema.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-112">
+          <mxGeometry y="70" width="235" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-196" value="5. El banco central solicita los datos&lt;div&gt;de la tarjeta&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-112">
+          <mxGeometry y="110" width="235" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-198" value="7. El banco central verifica los datos&lt;div&gt;de la tarjeta y los fondos suficientes&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-112">
+          <mxGeometry y="150" width="235" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-113" value="Acciones del Sistema" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="3970" width="243" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-119" value="1. El sistema solicita el codigo de&lt;div&gt;seguridad de la tarjeta al usuario r.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-113">
+          <mxGeometry y="30" width="243" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-194" value="3. El sistema solicita conexion con el&lt;div&gt;banco central&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-113">
+          <mxGeometry y="70" width="243" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-197" value="6. El sistema envia los datos de&lt;div&gt;la tarjeta al banco central&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-113">
+          <mxGeometry y="110" width="243" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-199" value="8. El sistema recibe q la tarjeta es correcta." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-113">
+          <mxGeometry y="150" width="243" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-200" value="9. El sistema recibe q los fondos&lt;div&gt;son suficientes&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-113">
+          <mxGeometry y="180" width="243" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-201" value="10. El sistema cierra la conexion con&amp;nbsp;&lt;div&gt;el banco central&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-113">
+          <mxGeometry y="220" width="243" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-114" value="Curso Alterno" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=80;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="4230" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-115" value="Post-condición" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-114">
+          <mxGeometry y="80" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-116" value="Paso ALT 4: Falla la conexion con el sistema. Fin CU.&lt;div&gt;Paso ALT 8: El sistema recibe q los datos de la tarjeta son incorretos. Se informa. Fin CU&lt;/div&gt;&lt;div&gt;PASO ALT 9: El sistema recible q los fondo son insufificentes. informa. Fin CU.&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=80;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="4230" width="460" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-202" value="Se efectua y registro el pago con tarjeta" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jDjw1Qbio6-0x3UyTMv_-116">
+          <mxGeometry y="80" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-120" value="Llega Vehiculo&lt;div&gt;al Cruce&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="4520" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-121" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="4650" as="sourcePoint" />
+            <mxPoint x="90" y="4570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-122" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="4610" as="sourcePoint" />
+            <mxPoint x="150" y="4610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-123" value="Llega Peaton&lt;div&gt;al Cruce&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="4760" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-124" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="4890" as="sourcePoint" />
+            <mxPoint x="90" y="4810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-125" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="4850" as="sourcePoint" />
+            <mxPoint x="150" y="4850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-126" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="150.0000000000001" y="4590" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-127" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250.0000000000001" y="4650" as="sourcePoint" />
+            <mxPoint x="250.0000000000001" y="4570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-129" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190.0000000000001" y="4609.58" as="sourcePoint" />
+            <mxPoint x="250.0000000000001" y="4610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-130" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="150.0000000000001" y="4830" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-131" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250.0000000000001" y="4890" as="sourcePoint" />
+            <mxPoint x="250.0000000000001" y="4810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-132" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250.0000000000001" y="4850" as="sourcePoint" />
+            <mxPoint x="310.0000000000001" y="4850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-133" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190.0000000000001" y="4849.58" as="sourcePoint" />
+            <mxPoint x="250.0000000000001" y="4850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-134" value="Vehiculo&lt;div&gt;Esperando en la Calle&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="4630" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-135" value="Peaton Esperando&lt;div&gt;en la Vereda&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="4870" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-137" value="Semaforo Habilitado" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="4690" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-138" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="310.0000000000001" y="4590" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-139" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410.0000000000001" y="4650" as="sourcePoint" />
+            <mxPoint x="410.0000000000001" y="4570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-140" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410.0000000000001" y="4610" as="sourcePoint" />
+            <mxPoint x="470.0000000000001" y="4610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-142" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="310.0000000000001" y="4830" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-143" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410.0000000000001" y="4890" as="sourcePoint" />
+            <mxPoint x="410.0000000000001" y="4810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-144" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410.0000000000001" y="4850" as="sourcePoint" />
+            <mxPoint x="470.0000000000001" y="4850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-145" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350.0000000000001" y="4849.58" as="sourcePoint" />
+            <mxPoint x="410.0000000000001" y="4850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-147" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190.0000000000001" y="4619.58" as="sourcePoint" />
+            <mxPoint x="250.0000000000001" y="4620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-148" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190.0000000000001" y="4600" as="sourcePoint" />
+            <mxPoint x="250.0000000000001" y="4600.42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-149" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190.0000000000001" y="4590" as="sourcePoint" />
+            <mxPoint x="250.0000000000001" y="4590.42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-150" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250.0000000000001" y="4609.58" as="sourcePoint" />
+            <mxPoint x="310.0000000000001" y="4610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-151" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250.0000000000001" y="4619.58" as="sourcePoint" />
+            <mxPoint x="310.0000000000001" y="4620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-152" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250.0000000000001" y="4600" as="sourcePoint" />
+            <mxPoint x="310.0000000000001" y="4600.42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-153" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250.0000000000001" y="4590" as="sourcePoint" />
+            <mxPoint x="310.0000000000001" y="4590.42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-154" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350.0000000000001" y="4609.58" as="sourcePoint" />
+            <mxPoint x="410.0000000000001" y="4610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-155" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350.0000000000001" y="4619.58" as="sourcePoint" />
+            <mxPoint x="410.0000000000001" y="4620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-156" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350.0000000000001" y="4600" as="sourcePoint" />
+            <mxPoint x="410.0000000000001" y="4600.42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-157" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350.0000000000001" y="4590" as="sourcePoint" />
+            <mxPoint x="410.0000000000001" y="4590.42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-158" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Vehiculos&lt;div&gt;Cruzando el cruce&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="4610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-159" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190.0000000000001" y="4859.58" as="sourcePoint" />
+            <mxPoint x="250.0000000000001" y="4860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-160" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250.0000000000001" y="4860" as="sourcePoint" />
+            <mxPoint x="310.0000000000001" y="4860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-161" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350.0000000000001" y="4860" as="sourcePoint" />
+            <mxPoint x="410.0000000000001" y="4860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-162" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Peatones&lt;div&gt;Cruzando el cruce&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="4850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-163" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="470.0000000000001" y="4590" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-164" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570.0000000000001" y="4650" as="sourcePoint" />
+            <mxPoint x="570.0000000000001" y="4570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-166" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510.0000000000001" y="4609.58" as="sourcePoint" />
+            <mxPoint x="570.0000000000001" y="4610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-167" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="470.0000000000001" y="4830" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-168" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570.0000000000001" y="4890" as="sourcePoint" />
+            <mxPoint x="570.0000000000001" y="4810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-170" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510.0000000000001" y="4849.58" as="sourcePoint" />
+            <mxPoint x="570.0000000000001" y="4850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" source="jDjw1Qbio6-0x3UyTMv_-174" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="244" y="4840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" source="jDjw1Qbio6-0x3UyTMv_-174" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="424" y="4840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-174" value="O" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="314" y="4720" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=1.029;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jDjw1Qbio6-0x3UyTMv_-174" target="jDjw1Qbio6-0x3UyTMv_-134">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="254" y="4850" as="targetPoint" />
+            <mxPoint x="324" y="4750" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="4640" as="targetPoint" />
+            <mxPoint x="360" y="4730" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-178" value="Comienza&lt;div&gt;el cruce de&lt;/div&gt;&lt;div&gt;vehiculos&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="4510" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-179" value="Finaliza&lt;div&gt;el cruce de&lt;/div&gt;&lt;div&gt;vehiculos&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="354" y="4510" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-180" value="Comienza&lt;div&gt;el cruce de&lt;/div&gt;&lt;div&gt;peatones&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="4780" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-181" value="Finaliza&lt;div&gt;el cruce de&lt;/div&gt;&lt;div&gt;peatones&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="4780" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-182" value="Vehiculo&lt;div&gt;Siguiendo trayecto&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="424" y="4630" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-183" value="Vehiculo&lt;div&gt;continua su trayecto&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505" y="4523" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-184" value="Peaton&lt;div&gt;continua su trayecto&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="4760" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-185" value="Peaton&lt;div&gt;Siguiendo Trayecto&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="429" y="4870" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jDjw1Qbio6-0x3UyTMv_-101" value="Post-condición" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3790" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

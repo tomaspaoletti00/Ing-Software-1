@@ -1,0 +1,161 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="yrYaRaziQs8yvL4KR-BS">
+    <mxGraphModel dx="880" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="304.76" y="140" as="sourcePoint" />
+            <mxPoint x="304.76" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-3" value="Se presiona el boton &quot;Registrar Asistencia&quot;&amp;nbsp;&lt;div&gt;// habilitar opciones&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="150" as="sourcePoint" />
+            <mxPoint x="490" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1oc7c75QuDjP87Q3UzE6-4" target="1oc7c75QuDjP87Q3UzE6-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-4" value="Esperando Seleccion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1oc7c75QuDjP87Q3UzE6-5" target="1oc7c75QuDjP87Q3UzE6-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-5" value="Esperando&lt;div&gt;Pase de&lt;/div&gt;&lt;div&gt;Tarjeta&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-7" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Se selecciona &quot;Registro por Tarjeta&quot;&amp;nbsp;&lt;br&gt;// habilitar lector de tarjeta&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="100" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-8" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="690" y="270" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-9" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="1oc7c75QuDjP87Q3UzE6-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="300" as="sourcePoint" />
+            <mxPoint x="714.86" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1oc7c75QuDjP87Q3UzE6-10" target="1oc7c75QuDjP87Q3UzE6-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-10" value="Validando Tarjeta" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-12" value="Se pasa la tarjeta por el lector&amp;nbsp;&lt;div&gt;// leer tarjeta&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="1oc7c75QuDjP87Q3UzE6-13" target="1oc7c75QuDjP87Q3UzE6-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="470" as="sourcePoint" />
+            <mxPoint x="520" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-13" value="Esperando&lt;div&gt;Ingreso&lt;/div&gt;&lt;div&gt;de Digitos&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-14" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Se valida incorrectamente&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;la tarjeta // informar error,&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;emitir pitido&lt;/font&gt;&lt;span style=&quot;font-size: 8px; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-16" value="se valida correctamente la tarjeta&amp;nbsp;&lt;div&gt;// habilitar teclado virtual&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="555" y="330" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-18" value="&lt;h5 style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;se ingresa un digito [digitos ingresados &amp;lt; 4]&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;// incrementa digitos ingresados&lt;/font&gt;&lt;/span&gt;&lt;/h5&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="405" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="550" as="sourcePoint" />
+            <mxPoint x="590" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="1oc7c75QuDjP87Q3UzE6-20" target="1oc7c75QuDjP87Q3UzE6-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="585" />
+              <mxPoint x="460" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-20" value="Validando&lt;div&gt;Clave&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-23" value="Se ingresa un digito&amp;nbsp;&lt;div&gt;[cantidad de digitos igual a 3] //&lt;/div&gt;&lt;div&gt;deshabilitar teclado virtual&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="475" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-24" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530" y="660" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-25" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="555" y="660" as="sourcePoint" />
+            <mxPoint x="555" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-26" value="&lt;h5 style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Se valida la clave correctamente&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp;// registrar presencia, mostrar fecha y horario de entrada,&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;mostrar mensaje de exito, apagar maquina&lt;/font&gt;&lt;/span&gt;&lt;/h5&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="600" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-27" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;se valida la clave incorrectamente&amp;nbsp;&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;[cantidad de intentos &amp;lt; 3]&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;// habilitar teclado virtual&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="480" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-28" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="560" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-31" value="&lt;h5 style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;se valida la clave incorrectamente&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;[cantidad de intentos es 2]&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;// informar error, emitir pitido, anular&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;operacion, retornar tarjeta&lt;/font&gt;&lt;/span&gt;&lt;/h5&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="590" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1oc7c75QuDjP87Q3UzE6-32" target="1oc7c75QuDjP87Q3UzE6-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-32" value="Esperando&lt;div&gt;Huella&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-34" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Se selecciona &quot;Registro por Huella Dactilar&quot;&amp;nbsp;&lt;br&gt;//habilitar lector de huella&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1oc7c75QuDjP87Q3UzE6-35" target="1oc7c75QuDjP87Q3UzE6-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-35" value="Validando Huella" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-37" value="Se apoya el dedo sobre el lector&lt;div&gt;// leer huella&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="210" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-38" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="405" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-39" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="1oc7c75QuDjP87Q3UzE6-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="55.000000000000014" y="390" as="sourcePoint" />
+            <mxPoint x="55.000000000000014" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-40" value="&lt;pre style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-weight: normal; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Se valida correctamente la huella // deshabilitar lector,&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;font-weight: normal; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;mostrar mensaje de exito, apagar maquina,&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;registrar presencia, mostrar fecha y horario de entrada,&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="340" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-41" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="230" y="285" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1oc7c75QuDjP87Q3UzE6-43" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Se valida incorrectamente&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;la huella // informar error,&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;emitir pitido, deshabilitar&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: initial;&quot;&gt;escaner&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="245" width="120" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

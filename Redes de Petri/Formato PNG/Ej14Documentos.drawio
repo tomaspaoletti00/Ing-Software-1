@@ -1,0 +1,378 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="3_hY-FHR4XubVjn3XzQP">
+    <mxGraphModel dx="1257" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-1" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="400" as="sourcePoint" />
+            <mxPoint x="40" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-2" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="360" as="sourcePoint" />
+            <mxPoint x="100" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-3" value="Llega un&lt;div&gt;Documento&lt;/div&gt;&lt;div&gt;a la Oficina&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry y="253" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="100.00000000000011" y="340" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-5" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240.0000000000001" y="280" as="sourcePoint" />
+            <mxPoint x="240.0000000000001" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-6" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240.0000000000001" y="240" as="sourcePoint" />
+            <mxPoint x="300.0000000000001" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-7" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140.0000000000001" y="359.58" as="sourcePoint" />
+            <mxPoint x="230" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-8" value="Esperando&lt;div&gt;en Oficina&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="80" y="390" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-9" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240.0000000000001" y="520" as="sourcePoint" />
+            <mxPoint x="240.0000000000001" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-10" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240.0000000000001" y="480" as="sourcePoint" />
+            <mxPoint x="300.0000000000001" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-11" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140.0000000000001" y="349.78999999999996" as="sourcePoint" />
+            <mxPoint x="230" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-12" value="Comienza&lt;div&gt;fotocopiado&lt;/div&gt;&lt;div&gt;en F1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="225" y="160" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-13" value="Comienza&lt;div&gt;fotocopiado&lt;/div&gt;&lt;div&gt;en F2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="225" y="390" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-14" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="300.0000000000001" y="460" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-15" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400.0000000000001" y="520" as="sourcePoint" />
+            <mxPoint x="400.0000000000001" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-16" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400.0000000000001" y="480" as="sourcePoint" />
+            <mxPoint x="460.0000000000001" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-17" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340.0000000000001" y="479.58" as="sourcePoint" />
+            <mxPoint x="400.0000000000001" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="300.0000000000001" y="220" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-19" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400.0000000000001" y="280" as="sourcePoint" />
+            <mxPoint x="400.0000000000001" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-20" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400.0000000000001" y="240" as="sourcePoint" />
+            <mxPoint x="460.0000000000001" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-21" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340.0000000000001" y="239.57999999999998" as="sourcePoint" />
+            <mxPoint x="400.0000000000001" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="i5js_GtgXBpmB2hp2HNd-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;" parent="1" source="i5js_GtgXBpmB2hp2HNd-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-24" value="O" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="440" y="90" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-25" value="Finaliza&lt;div&gt;fotocopiado&lt;/div&gt;&lt;div&gt;en F1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="329" y="160" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-26" value="Finaliza&lt;div&gt;fotocopiado&lt;/div&gt;&lt;div&gt;en F2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="329" y="390" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-27" value="Encargado 1 Libre" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="410" y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="i5js_GtgXBpmB2hp2HNd-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;" parent="1" source="i5js_GtgXBpmB2hp2HNd-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-30" value="O" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="480" y="555" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-31" value="Encargado 2 Libre" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="470" y="625" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-32" value="Fotocopiando&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="270" y="263" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-33" value="Fotocopiando 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="265" y="505" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-42" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="460.0000000000001" y="220" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-43" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560.0000000000001" y="280" as="sourcePoint" />
+            <mxPoint x="560.0000000000001" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-44" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560.0000000000001" y="240" as="sourcePoint" />
+            <mxPoint x="620.0000000000001" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-45" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500.0000000000001" y="239.57999999999998" as="sourcePoint" />
+            <mxPoint x="560.0000000000001" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-46" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="460.0000000000001" y="460" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-47" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560.0000000000001" y="520" as="sourcePoint" />
+            <mxPoint x="560.0000000000001" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-49" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500.0000000000001" y="479.58" as="sourcePoint" />
+            <mxPoint x="560.0000000000001" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-50" value="Copias&lt;div&gt;Esperando&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="263" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-51" value="Copias&lt;div&gt;Esperando 2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="435" y="505" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-52" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500.0000000000001" y="253" as="sourcePoint" />
+            <mxPoint x="560.0000000000001" y="253.42000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-53" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500.0000000000001" y="230" as="sourcePoint" />
+            <mxPoint x="560.0000000000001" y="230.42000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-54" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500.0000000000001" y="489.5799999999999" as="sourcePoint" />
+            <mxPoint x="560.0000000000001" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-55" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500.0000000000001" y="469.99999999999994" as="sourcePoint" />
+            <mxPoint x="560.0000000000001" y="470.42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-56" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="620.0000000000001" y="220" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-57" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720.0000000000001" y="280" as="sourcePoint" />
+            <mxPoint x="720.0000000000001" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-58" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720.0000000000001" y="240" as="sourcePoint" />
+            <mxPoint x="780.0000000000001" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-59" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660.0000000000001" y="239.57999999999998" as="sourcePoint" />
+            <mxPoint x="720.0000000000001" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-60" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="780.0000000000001" y="220" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-61" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920.0000000000001" y="407" as="sourcePoint" />
+            <mxPoint x="920.0000000000001" y="327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-63" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="i5js_GtgXBpmB2hp2HNd-60" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860.0000000000001" y="366.58" as="sourcePoint" />
+            <mxPoint x="920.0000000000001" y="367" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-64" value="Comienza&lt;div&gt;Empaquetado&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="530" y="153" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-65" value="Empaquetando&lt;div&gt;Copias&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="590" y="263" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-66" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560.0000000000001" y="230" as="sourcePoint" />
+            <mxPoint x="620.0000000000001" y="230.42000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-67" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560.0000000000001" y="253" as="sourcePoint" />
+            <mxPoint x="620.0000000000001" y="253.42000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-68" value="Finaliza&lt;div&gt;Empaquetado&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="640" y="153" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-69" value="Paquetes&lt;div&gt;Esperando&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="750" y="263" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-70" value="Se deriva&lt;div&gt;Paquete a&lt;/div&gt;&lt;div&gt;Asuntos Legales&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="865" y="270" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-71" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560.0000000000001" y="517" as="sourcePoint" />
+            <mxPoint x="560.0000000000001" y="437" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-72" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560.0000000000001" y="477" as="sourcePoint" />
+            <mxPoint x="620.0000000000001" y="477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-73" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="620.0000000000001" y="457" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-74" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720.0000000000001" y="517" as="sourcePoint" />
+            <mxPoint x="720.0000000000001" y="437" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-75" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720.0000000000001" y="477" as="sourcePoint" />
+            <mxPoint x="780.0000000000001" y="477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-76" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660.0000000000001" y="476.58" as="sourcePoint" />
+            <mxPoint x="720.0000000000001" y="477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-77" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="780.0000000000001" y="457" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-79" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820.0000000000001" y="476.58" as="sourcePoint" />
+            <mxPoint x="920" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-80" value="Empaquetando&lt;div&gt;Copias 2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="590" y="500" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-81" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560.0000000000001" y="467" as="sourcePoint" />
+            <mxPoint x="620.0000000000001" y="467.42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-82" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560.0000000000001" y="490" as="sourcePoint" />
+            <mxPoint x="620.0000000000001" y="490.4200000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-83" value="Finaliza&lt;div&gt;Empaquetado 2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="635" y="390" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-84" value="Paquetes&lt;div&gt;Esperando 2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="745" y="500" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5js_GtgXBpmB2hp2HNd-86" value="Comienza&lt;div&gt;Empaquetado 2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="505" y="390" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pkRYaGYJpL6CBL9b5fVk-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660.0000000000001" y="252.99999999999997" as="sourcePoint" />
+            <mxPoint x="720.0000000000001" y="253.42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pkRYaGYJpL6CBL9b5fVk-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660.0000000000001" y="230" as="sourcePoint" />
+            <mxPoint x="720.0000000000001" y="230.42000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pkRYaGYJpL6CBL9b5fVk-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660.0000000000001" y="486.58" as="sourcePoint" />
+            <mxPoint x="720.0000000000001" y="487" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pkRYaGYJpL6CBL9b5fVk-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660.0000000000001" y="470" as="sourcePoint" />
+            <mxPoint x="720.0000000000001" y="470.42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

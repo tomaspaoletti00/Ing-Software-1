@@ -1,0 +1,127 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="cha8SPfO4983N0v8cHG1">
+    <mxGraphModel dx="352" dy="213" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="20" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-2" value="" style="endArrow=none;html=1;rounded=0;startArrow=block;startFill=1;" edge="1" parent="1" source="IK0X-aVH8Qt6ysHqB0A1-4" target="IK0X-aVH8Qt6ysHqB0A1-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="374.76" y="130" as="sourcePoint" />
+            <mxPoint x="374.76" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-3" value="Se presiona &#39;On/Off&#39;&lt;div&gt;//Emitir Rugido,&lt;/div&gt;&lt;div&gt;Prender Luces&lt;/div&gt;&lt;div&gt;Ojos Blancos&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="20" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="230.00000000000006" as="targetPoint" />
+            <mxPoint x="440" y="229.99999999999994" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IK0X-aVH8Qt6ysHqB0A1-4" target="IK0X-aVH8Qt6ysHqB0A1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IK0X-aVH8Qt6ysHqB0A1-4" target="IK0X-aVH8Qt6ysHqB0A1-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-4" value="Esperando&lt;div&gt;Orden&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-6" value="&lt;h6&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Se aprieta &#39;Avanzar&#39;&lt;br&gt;[distancia control menos a 10m]&lt;br&gt;//Avanzar Robot&lt;/span&gt;&lt;/h6&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="170" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-7" value="&lt;h6 style=&quot;font-size: 7px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Se aprieta &#39;Retroceder&#39;&lt;br&gt;[distancia control menos a 10m]&lt;br&gt;//Retroceder Robot&lt;/span&gt;&lt;/h6&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="292" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.008;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.847;exitY=0.975;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IK0X-aVH8Qt6ysHqB0A1-9" target="IK0X-aVH8Qt6ysHqB0A1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.68;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="IK0X-aVH8Qt6ysHqB0A1-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610.7646153846155" y="260.0000000000001" as="sourcePoint" />
+            <mxPoint x="529.9953846153846" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-9" value="Avanzando" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IK0X-aVH8Qt6ysHqB0A1-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="609.9999999999999" y="563.64" as="sourcePoint" />
+            <mxPoint x="725.4247368421054" y="280.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IK0X-aVH8Qt6ysHqB0A1-10" target="IK0X-aVH8Qt6ysHqB0A1-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-10" value="Retrocediendo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-14" value="&lt;h6&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Se aprieta &#39;Avanzar&#39;&lt;br&gt;[distancia control menos a 10m]&lt;br&gt;//Avanzar Robot&lt;/span&gt;&lt;/h6&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="592" y="490" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-15" value="&lt;h6 style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Se aprieta &#39;Retroceder&#39;&lt;br&gt;[distancia control menos a 10m]&lt;br&gt;//Retroceder Robot&lt;/span&gt;&lt;/h6&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="596" y="278" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-18" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="650" y="120" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="674.86" y="220" as="sourcePoint" />
+            <mxPoint x="674.86" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-20" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="170" y="220" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="IK0X-aVH8Qt6ysHqB0A1-4" target="IK0X-aVH8Qt6ysHqB0A1-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="194.86" y="320" as="sourcePoint" />
+            <mxPoint x="194.86" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.973;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IK0X-aVH8Qt6ysHqB0A1-22" target="IK0X-aVH8Qt6ysHqB0A1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-22" value="Rugiendo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-26" value="&lt;h6 style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Se apreita &#39;Rugir&#39;&lt;br&gt;[distancia control&lt;br&gt;menor a 10m]&lt;br&gt;//Cambiar Ojos a rojo&lt;/span&gt;&lt;/h6&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="220" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-27" value="&lt;h6 style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Se apreita &#39;Rugir&#39;&lt;br&gt;[distancia control&lt;br&gt;menor a 10m]&lt;br&gt;//Cambiar Ojos a rojo&lt;/span&gt;&lt;/h6&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="526" y="231" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-29" value="&lt;h6 style=&quot;font-size: 7px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;se pasan 10s&lt;br&gt;//Cambiar a Ojos&lt;br&gt;Blancos&lt;/span&gt;&lt;/h6&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="399" y="292" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-30" value="&lt;h6 style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Se apreita &#39;Rugir&#39;&lt;br&gt;[distancia control&lt;br&gt;menor a 10m]&lt;br&gt;//Cambiar Ojos a rojo&lt;/span&gt;&lt;/h6&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="507" y="420" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-31" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="485" y="650" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-32" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="IK0X-aVH8Qt6ysHqB0A1-10" target="IK0X-aVH8Qt6ysHqB0A1-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="509.86" y="750" as="sourcePoint" />
+            <mxPoint x="510" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-33" value="&lt;h6 style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;se presiona &#39;On/Off&#39;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;[distancio control menos 10m]&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;//Apagar Luces&lt;/font&gt;&lt;/span&gt;&lt;/h6&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="140" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-34" value="&lt;h6 style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;se presiona &#39;On/Off&#39;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;[distancio control menos 10m]&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;//Apagar Luces&lt;/font&gt;&lt;/span&gt;&lt;/h6&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="596" y="40" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IK0X-aVH8Qt6ysHqB0A1-35" value="&lt;h6 style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;se presiona &#39;On/Off&#39;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;[distancio control menos 10m]&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;//Apagar Luces&lt;/font&gt;&lt;/span&gt;&lt;/h6&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="610" width="170" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

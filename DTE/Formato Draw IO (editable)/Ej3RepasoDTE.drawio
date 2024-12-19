@@ -1,0 +1,175 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="FCB0yIn_jFf7CgPsFatd">
+    <mxGraphModel dx="607" dy="367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="30" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="JQhO3ERZDSBj6xrzu9yl-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="264.76" y="130" as="sourcePoint" />
+            <mxPoint x="264.76" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-3" value="Se presiona&lt;div&gt;el boton &quot;On/Off&quot;&lt;/div&gt;&lt;div&gt;//Encender Pava,&lt;/div&gt;&lt;div&gt;Recuperar Ult Temp,&lt;/div&gt;&lt;div&gt;Habilitar Botones (+),(-),(A),&lt;/div&gt;&lt;div&gt;Habilitar Sensor,&lt;/div&gt;&lt;div&gt;Visualizar Ult Temp&amp;nbsp;&lt;/div&gt;&lt;div&gt;en Display.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="250" as="targetPoint" />
+            <mxPoint x="325" y="270.00671140939596" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="345" y="270" />
+              <mxPoint x="345" y="251" />
+              <mxPoint x="330" y="251" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="JQhO3ERZDSBj6xrzu9yl-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="185" y="270" />
+              <mxPoint x="185" y="251" />
+              <mxPoint x="200" y="251" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.206;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210.02000000000004" y="313" as="targetPoint" />
+            <mxPoint x="230.3" y="310" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="230.3" y="340" />
+              <mxPoint x="211.3" y="340" />
+              <mxPoint x="211.3" y="320" />
+              <mxPoint x="210.3" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="310" as="sourcePoint" />
+            <mxPoint x="310" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-4" value="Esperando&lt;div&gt;Seleccion&lt;/div&gt;&lt;div&gt;de Temperatura&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-7" value="&lt;h5 style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Se apreta el boton (+)&lt;br&gt;[Temperatura mayor a 0&lt;br&gt;y menor a 95]&lt;br&gt;//Incrementar Tempertaura,&lt;br&gt;Actualizar Display&lt;/span&gt;&lt;/h5&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="280" as="targetPoint" />
+            <mxPoint x="325" y="300.00671140939596" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="345" y="300" />
+              <mxPoint x="345" y="281" />
+              <mxPoint x="330" y="281" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-10" value="&lt;h5 style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Se apreta el boton (+)&lt;br&gt;[Temperatura igual a 100]&lt;br&gt;//Incrementar Temperatura,&lt;br&gt;Actualizar Display,&lt;br&gt;Emitir Pitido&lt;/span&gt;&lt;/h5&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="260" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="280" as="targetPoint" />
+            <mxPoint x="205" y="300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="185" y="300" />
+              <mxPoint x="185" y="281" />
+              <mxPoint x="200" y="281" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-14" value="&lt;h5 style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Se apreta el boton (-)&lt;br&gt;[Temperatura mayor a 25&lt;br&gt;y menor a 100]&lt;br&gt;//Decrementar Tempertaura,&lt;br&gt;Actualizar Display&lt;/span&gt;&lt;/h5&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="190" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-15" value="&lt;h5 style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Se apreta el boton (-)&lt;br&gt;[Temperatura igual a 20]&lt;br&gt;//Decrementar Tempertaura,&lt;br&gt;Actualizar Display, Emitir Pitido&lt;/span&gt;&lt;/h5&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="255" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-17" value="&lt;h6&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Se apreta el boton (A)&lt;br&gt;[Tapa esta Abierta]&lt;br&gt;//Emitir Pitido&lt;/span&gt;&lt;/h6&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="450" as="sourcePoint" />
+            <mxPoint x="290" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JQhO3ERZDSBj6xrzu9yl-18" target="JQhO3ERZDSBj6xrzu9yl-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="480" />
+              <mxPoint x="450" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-18" value="Calentando&lt;div&gt;Agua&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-20" value="&lt;h5 style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Se apreta el boton (A)&lt;br&gt;[Tapa esta Cerrada]&lt;br&gt;//Activar Calentor,&lt;br&gt;Guardar Tempertaura&lt;/span&gt;&lt;/h5&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="320" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-21" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="150" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-22" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="224.86" y="250" as="sourcePoint" />
+            <mxPoint x="224.86" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-23" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="455" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-24" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="JQhO3ERZDSBj6xrzu9yl-18" target="JQhO3ERZDSBj6xrzu9yl-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="104.86000000000001" y="510" as="sourcePoint" />
+            <mxPoint x="104.86000000000001" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-27" value="&lt;h6&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Se llego a&lt;br&gt;la Temperatura Indicada&lt;br&gt;//Apagar Calentor,&lt;br&gt;Emitir Pitido&lt;/span&gt;&lt;/h6&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="370" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-30" value="Se abre la tapa&lt;div&gt;[Tapa cerrada]&lt;br&gt;&lt;div&gt;//Apagar Calentor&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-33" value="Se cierra tapa&lt;div&gt;[Tapa Abierta]&lt;/div&gt;&lt;div&gt;//Activar Calentor&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="354" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-34" value="&lt;h6&gt;&lt;span style=&quot;font-size: 8.04px; font-weight: 400;&quot;&gt;Se presiona (On/Off)&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;//Apagar Calentor,&lt;br&gt;Deshabilitar Botones,&lt;br&gt;Apagar Display,&lt;br&gt;Deshabilitar Sensor&lt;/span&gt;&lt;/h6&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="490" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-37" value="&lt;h6&gt;&lt;span style=&quot;font-size: 8.04px; font-weight: 400;&quot;&gt;Se presiona (On/Off)&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;//Apagar Calentor,&lt;br&gt;Deshabilitar Botones,&lt;br&gt;Apagar Display,&lt;br&gt;Deshabilitar Sensor&lt;/span&gt;&lt;/h6&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="105" y="90" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="489.9999999999999" as="sourcePoint" />
+            <mxPoint x="324.9999999999999" y="489.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-39" value="Esperando&lt;div&gt;Tapa&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-42" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="525" y="350" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-43" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="549.86" y="450" as="sourcePoint" />
+            <mxPoint x="549.86" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JQhO3ERZDSBj6xrzu9yl-44" value="&lt;h6&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Se presiona (On/Off)&lt;br&gt;//Deshabilitar Botones,&lt;br&gt;Apagar Display,&lt;br&gt;Deshabilitar Sensor&lt;/span&gt;&lt;/h6&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="360" width="100" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
